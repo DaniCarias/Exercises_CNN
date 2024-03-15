@@ -21,7 +21,7 @@ class ModelCNN(nn.Module):
             nn.ReLU(),
             nn.Conv2d(in_channels=units_shape, out_channels=units_shape, kernel_size=3, stride=1, padding=1),
             nn.ReLU(),
-            nn.MaxPool2d(kernel_size=2, stride=2))
+            nn.MaxPool2d(kernel_size=2, stride=2)) 
 
         self.classifier = nn.Sequential(
             nn.Flatten(),
