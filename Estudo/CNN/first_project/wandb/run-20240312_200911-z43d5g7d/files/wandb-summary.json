@@ -1,0 +1,1 @@
+{"train/loss": 0.7974880933761597, "train/accuracy": 72.47166666666666, "test/loss": 0.7709286212921143, "test/accuracy": 72.74, "eval/loss": 72.92, "eval/accuracy": "ModelCNN", "_timestamp": 1710274876.8713703, "_runtime": 725.3822302818298, "_step": 0, "_wandb": {"runtime": 724}}

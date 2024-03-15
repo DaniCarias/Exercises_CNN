@@ -1,0 +1,563 @@
+2024-03-12 16:23:02,054 INFO    StreamThr :18359 [internal.py:wandb_internal():86] W&B internal server running at pid: 18359, started at: 2024-03-12 16:23:02.053336
+2024-03-12 16:23:02,056 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status
+2024-03-12 16:23:02,058 INFO    WriterThread:18359 [datastore.py:open_for_write():87] open: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/run-s2rf2gyc.wandb
+2024-03-12 16:23:02,060 DEBUG   SenderThread:18359 [sender.py:send():378] send: header
+2024-03-12 16:23:02,060 DEBUG   SenderThread:18359 [sender.py:send():378] send: run
+2024-03-12 16:23:02,636 INFO    SenderThread:18359 [dir_watcher.py:__init__():211] watching files in: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files
+2024-03-12 16:23:02,636 INFO    SenderThread:18359 [sender.py:_start_run_threads():1099] run started: s2rf2gyc with start time 1710260582.053455
+2024-03-12 16:23:02,650 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: check_version
+2024-03-12 16:23:02,651 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: check_version
+2024-03-12 16:23:02,771 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: run_start
+2024-03-12 16:23:02,814 DEBUG   HandlerThread:18359 [system_info.py:__init__():26] System info init
+2024-03-12 16:23:02,814 DEBUG   HandlerThread:18359 [system_info.py:__init__():41] System info init done
+2024-03-12 16:23:02,815 INFO    HandlerThread:18359 [system_monitor.py:start():194] Starting system monitor
+2024-03-12 16:23:02,815 INFO    SystemMonitor:18359 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-12 16:23:02,815 INFO    HandlerThread:18359 [system_monitor.py:probe():214] Collecting system info
+2024-03-12 16:23:02,817 INFO    SystemMonitor:18359 [interfaces.py:start():190] Started cpu monitoring
+2024-03-12 16:23:02,817 INFO    SystemMonitor:18359 [interfaces.py:start():190] Started disk monitoring
+2024-03-12 16:23:02,819 INFO    SystemMonitor:18359 [interfaces.py:start():190] Started gpu monitoring
+2024-03-12 16:23:02,820 INFO    SystemMonitor:18359 [interfaces.py:start():190] Started memory monitoring
+2024-03-12 16:23:02,821 INFO    SystemMonitor:18359 [interfaces.py:start():190] Started network monitoring
+2024-03-12 16:23:02,828 DEBUG   HandlerThread:18359 [system_info.py:probe():150] Probing system
+2024-03-12 16:23:02,830 DEBUG   HandlerThread:18359 [gitlib.py:_init_repo():56] git repository is invalid
+2024-03-12 16:23:02,830 DEBUG   HandlerThread:18359 [system_info.py:probe():198] Probing system done
+2024-03-12 16:23:02,830 DEBUG   HandlerThread:18359 [system_monitor.py:probe():223] {'os': 'Linux-6.6.10-76060610-generic-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2024-03-12T16:23:02.828414', 'startedAt': '2024-03-12T16:23:02.046241', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py', 'codePathLocal': 'CNN.py', 'codePath': 'CNN.py', 'host': 'pop-os', 'username': 'danielcarias', 'executable': '/usr/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 1787.0804166666667, 'min': 1400.0, 'max': 3000.0}, 'cpu_freq_per_core': [{'current': 1773.188, 'min': 1400.0, 'max': 3000.0}, {'current': 1774.372, 'min': 1400.0, 'max': 3000.0}, {'current': 3974.584, 'min': 1400.0, 'max': 3000.0}, {'current': 3983.214, 'min': 1400.0, 'max': 3000.0}, {'current': 3989.22, 'min': 1400.0, 'max': 3000.0}, {'current': 3993.844, 'min': 1400.0, 'max': 3000.0}, {'current': 1448.148, 'min': 1400.0, 'max': 3000.0}, {'current': 1403.915, 'min': 1400.0, 'max': 3000.0}, {'current': 1641.145, 'min': 1400.0, 'max': 3000.0}, {'current': 1353.94, 'min': 1400.0, 'max': 3000.0}, {'current': 1211.898, 'min': 1400.0, 'max': 3000.0}, {'current': 1211.508, 'min': 1400.0, 'max': 3000.0}], 'disk': {'/': {'total': 459.5223274230957, 'used': 118.33721923828125}}, 'gpu': 'NVIDIA GeForce GTX 1650', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650', 'memory_total': 4294967296}], 'memory': {'total': 14.997810363769531}}
+2024-03-12 16:23:02,830 INFO    HandlerThread:18359 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-12 16:23:02,830 INFO    HandlerThread:18359 [system_monitor.py:probe():227] Publishing system info
+2024-03-12 16:23:02,831 INFO    HandlerThread:18359 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-12 16:23:02,835 DEBUG   SenderThread:18359 [sender.py:send():378] send: files
+2024-03-12 16:23:02,835 INFO    SenderThread:18359 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2024-03-12 16:23:02,997 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-12 16:23:02,997 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: python_packages
+2024-03-12 16:23:02,998 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:23:02,998 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:23:02,999 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:23:03,289 DEBUG   SenderThread:18359 [sender.py:send():378] send: telemetry
+2024-03-12 16:23:03,615 INFO    wandb-upload_0:18359 [upload_job.py:push():131] Uploaded file /tmp/tmppynjsfk_wandb/letixzzh-wandb-metadata.json
+2024-03-12 16:23:03,638 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_created():271] file/dir created: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:23:03,638 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_created():271] file/dir created: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/wandb-metadata.json
+2024-03-12 16:23:03,638 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_created():271] file/dir created: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/requirements.txt
+2024-03-12 16:23:05,637 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:23:07,774 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:23:12,775 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:23:17,641 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:23:17,998 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:23:17,999 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:23:17,999 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:23:18,244 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:23:23,244 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:23:28,245 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:23:31,645 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:23:32,998 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:23:32,998 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:23:33,000 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:23:33,291 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:23:33,647 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/config.yaml
+2024-03-12 16:23:38,590 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:23:43,590 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:23:45,650 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:23:47,998 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:23:47,999 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:23:47,999 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:23:49,208 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:23:54,209 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:23:57,653 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:23:59,425 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:24:02,822 DEBUG   SystemMonitor:18359 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-12 16:24:02,823 DEBUG   SenderThread:18359 [sender.py:send():378] send: stats
+2024-03-12 16:24:02,998 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:24:02,998 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:24:03,002 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:24:05,246 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:24:10,247 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:24:11,659 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:24:15,906 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:24:17,998 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:24:17,999 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:24:17,999 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:24:21,288 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:24:25,663 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:24:26,369 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:24:31,370 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:24:32,824 DEBUG   SenderThread:18359 [sender.py:send():378] send: stats
+2024-03-12 16:24:32,998 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:24:32,999 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:24:33,002 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:24:37,227 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:24:40,668 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:24:42,834 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:24:47,835 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:24:47,998 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:24:47,999 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:24:48,001 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:24:52,673 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:24:53,361 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:24:58,362 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:25:02,825 DEBUG   SenderThread:18359 [sender.py:send():378] send: stats
+2024-03-12 16:25:02,999 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:25:02,999 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:25:03,001 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:25:04,283 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:25:06,677 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:25:09,858 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:25:12,679 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:25:14,680 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:25:15,563 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:25:16,680 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:25:18,000 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:25:18,001 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:25:18,001 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:25:18,681 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:25:20,681 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:25:21,212 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:25:22,682 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:25:26,732 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:25:31,733 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:25:32,826 DEBUG   SenderThread:18359 [sender.py:send():378] send: stats
+2024-03-12 16:25:32,999 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:25:33,000 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:25:33,000 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:25:36,688 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:25:37,437 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:25:42,438 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:25:47,439 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:25:47,999 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:25:48,000 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:25:48,001 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:25:50,692 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:25:52,953 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:25:57,954 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:26:02,827 DEBUG   SenderThread:18359 [sender.py:send():378] send: stats
+2024-03-12 16:26:03,000 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:26:03,000 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:26:03,002 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:26:03,366 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:26:04,696 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:26:08,367 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:26:13,367 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:26:18,000 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:26:18,000 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:26:18,001 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:26:18,700 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:26:19,199 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:26:24,200 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:26:29,201 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:26:30,704 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:26:32,827 DEBUG   SenderThread:18359 [sender.py:send():378] send: stats
+2024-03-12 16:26:33,000 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:26:33,000 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:26:33,002 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:26:38,353 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:26:44,069 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:26:44,708 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:26:48,000 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:26:48,000 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:26:48,002 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:26:49,277 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:26:54,278 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:26:58,713 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:26:59,561 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:27:02,830 DEBUG   SenderThread:18359 [sender.py:send():378] send: stats
+2024-03-12 16:27:03,000 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:27:03,000 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:27:03,002 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:27:05,211 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:27:10,716 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:27:11,049 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:27:16,050 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:27:18,000 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:27:18,001 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:27:18,003 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:27:21,357 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:27:24,721 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:27:26,541 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:27:30,723 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:27:31,871 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:27:32,724 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:27:32,829 DEBUG   SenderThread:18359 [sender.py:send():378] send: stats
+2024-03-12 16:27:33,000 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:27:33,000 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:27:33,002 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:27:34,724 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:27:36,724 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:27:37,746 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:27:38,725 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:27:40,726 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:27:42,726 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:27:43,083 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:27:48,000 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:27:48,001 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:27:48,003 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:27:48,232 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:27:53,233 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:27:56,731 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:27:58,585 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:28:02,829 DEBUG   SenderThread:18359 [sender.py:send():378] send: stats
+2024-03-12 16:28:03,001 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:28:03,001 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:28:03,003 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:28:04,269 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:28:08,735 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:28:10,097 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:28:15,098 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:28:18,001 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:28:18,001 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:28:18,003 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:28:20,282 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:28:22,740 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:28:25,565 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:28:30,566 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:28:32,831 DEBUG   SenderThread:18359 [sender.py:send():378] send: stats
+2024-03-12 16:28:33,001 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:28:33,001 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:28:33,004 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:28:36,049 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:28:36,745 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:28:41,050 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:28:46,051 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:28:48,001 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:28:48,002 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:28:48,005 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:28:49,749 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:28:51,529 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:28:56,530 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:29:01,531 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:29:02,831 DEBUG   SenderThread:18359 [sender.py:send():378] send: stats
+2024-03-12 16:29:03,001 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:29:03,002 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:29:03,003 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:29:03,753 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:29:07,332 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:29:12,333 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:29:17,525 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:29:17,758 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:29:18,001 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:29:18,002 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:29:18,003 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:29:23,368 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:29:28,369 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:29:31,762 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:29:32,832 DEBUG   SenderThread:18359 [sender.py:send():378] send: stats
+2024-03-12 16:29:33,001 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:29:33,002 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:29:33,003 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:29:34,200 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:29:39,200 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:29:43,766 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:29:44,469 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:29:48,001 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:29:48,002 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:29:48,003 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:29:49,768 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:29:50,410 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:29:51,768 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:29:53,769 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:29:55,770 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:29:56,078 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:29:57,771 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:29:59,771 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:30:01,384 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:30:01,772 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:30:02,833 DEBUG   SenderThread:18359 [sender.py:send():378] send: stats
+2024-03-12 16:30:03,002 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:30:03,002 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:30:03,004 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:30:07,282 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:30:12,282 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:30:13,776 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:30:17,906 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:30:18,002 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:30:18,002 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:30:18,004 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:30:23,330 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:30:27,781 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:30:28,421 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:30:32,835 DEBUG   SenderThread:18359 [sender.py:send():378] send: stats
+2024-03-12 16:30:33,002 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:30:33,002 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:30:33,004 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:30:38,268 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:30:41,786 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:30:43,925 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:30:48,002 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:30:48,003 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:30:48,005 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:30:49,298 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:30:54,445 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:30:55,790 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:30:59,446 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:31:02,836 DEBUG   SenderThread:18359 [sender.py:send():378] send: stats
+2024-03-12 16:31:03,002 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:31:03,002 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:31:03,004 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:31:05,234 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:31:07,794 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:31:10,921 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:31:15,922 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:31:18,002 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:31:18,003 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:31:18,005 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:31:21,277 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:31:23,801 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:31:26,998 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:31:32,001 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:31:32,836 DEBUG   SenderThread:18359 [sender.py:send():378] send: stats
+2024-03-12 16:31:33,002 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:31:33,003 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:31:33,004 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:31:37,211 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:31:39,806 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:31:42,690 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:31:47,691 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:31:48,003 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:31:48,003 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:31:48,006 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:31:53,257 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:31:53,811 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:31:58,341 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:32:02,837 DEBUG   SenderThread:18359 [sender.py:send():378] send: stats
+2024-03-12 16:32:03,003 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-12 16:32:03,003 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: stop_status
+2024-03-12 16:32:03,005 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:32:09,004 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-12 16:32:14,005 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-12 16:32:18,004 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-12 16:32:21,749 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-12 16:32:26,752 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-12 16:32:27,038 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:32:27,040 DEBUG   SenderThread:18359 [sender.py:send():378] send: exit
+2024-03-12 16:32:27,040 INFO    SenderThread:18359 [sender.py:send_exit():585] handling exit code: 255
+2024-03-12 16:32:27,043 INFO    SenderThread:18359 [sender.py:send_exit():587] handling runtime: 557
+2024-03-12 16:32:27,044 INFO    SenderThread:18359 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-12 16:32:27,046 INFO    SenderThread:18359 [sender.py:send_exit():593] send defer
+2024-03-12 16:32:27,046 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: poll_exit
+2024-03-12 16:32:27,057 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: defer
+2024-03-12 16:32:27,057 INFO    HandlerThread:18359 [handler.py:handle_request_defer():172] handle defer: 0
+2024-03-12 16:32:27,060 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: defer
+2024-03-12 16:32:27,061 INFO    SenderThread:18359 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-03-12 16:32:27,061 INFO    SenderThread:18359 [sender.py:transition_state():613] send defer: 1
+2024-03-12 16:32:27,061 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: defer
+2024-03-12 16:32:27,061 INFO    HandlerThread:18359 [handler.py:handle_request_defer():172] handle defer: 1
+2024-03-12 16:32:27,062 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: defer
+2024-03-12 16:32:27,062 INFO    SenderThread:18359 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-03-12 16:32:27,062 INFO    SenderThread:18359 [sender.py:transition_state():613] send defer: 2
+2024-03-12 16:32:27,062 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: defer
+2024-03-12 16:32:27,062 INFO    HandlerThread:18359 [handler.py:handle_request_defer():172] handle defer: 2
+2024-03-12 16:32:27,063 INFO    HandlerThread:18359 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-12 16:32:27,063 DEBUG   SystemMonitor:18359 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-12 16:32:27,064 INFO    HandlerThread:18359 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-12 16:32:27,064 DEBUG   SystemMonitor:18359 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-12 16:32:27,065 INFO    HandlerThread:18359 [interfaces.py:finish():202] Joined disk monitor
+2024-03-12 16:32:27,184 INFO    HandlerThread:18359 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-12 16:32:27,184 INFO    HandlerThread:18359 [interfaces.py:finish():202] Joined memory monitor
+2024-03-12 16:32:27,185 INFO    HandlerThread:18359 [interfaces.py:finish():202] Joined network monitor
+2024-03-12 16:32:27,186 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: defer
+2024-03-12 16:32:27,186 INFO    SenderThread:18359 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-03-12 16:32:27,186 INFO    SenderThread:18359 [sender.py:transition_state():613] send defer: 3
+2024-03-12 16:32:27,186 DEBUG   SenderThread:18359 [sender.py:send():378] send: stats
+2024-03-12 16:32:27,187 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: defer
+2024-03-12 16:32:27,187 INFO    HandlerThread:18359 [handler.py:handle_request_defer():172] handle defer: 3
+2024-03-12 16:32:27,189 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: defer
+2024-03-12 16:32:27,189 INFO    SenderThread:18359 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-03-12 16:32:27,189 INFO    SenderThread:18359 [sender.py:transition_state():613] send defer: 4
+2024-03-12 16:32:27,189 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: defer
+2024-03-12 16:32:27,189 INFO    HandlerThread:18359 [handler.py:handle_request_defer():172] handle defer: 4
+2024-03-12 16:32:27,190 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: defer
+2024-03-12 16:32:27,190 INFO    SenderThread:18359 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-03-12 16:32:27,190 INFO    SenderThread:18359 [sender.py:transition_state():613] send defer: 5
+2024-03-12 16:32:27,190 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: defer
+2024-03-12 16:32:27,191 INFO    HandlerThread:18359 [handler.py:handle_request_defer():172] handle defer: 5
+2024-03-12 16:32:27,191 DEBUG   SenderThread:18359 [sender.py:send():378] send: summary
+2024-03-12 16:32:27,192 INFO    SenderThread:18359 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-12 16:32:27,193 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: defer
+2024-03-12 16:32:27,193 INFO    SenderThread:18359 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-03-12 16:32:27,193 INFO    SenderThread:18359 [sender.py:transition_state():613] send defer: 6
+2024-03-12 16:32:27,193 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: defer
+2024-03-12 16:32:27,193 INFO    HandlerThread:18359 [handler.py:handle_request_defer():172] handle defer: 6
+2024-03-12 16:32:27,194 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: defer
+2024-03-12 16:32:27,194 INFO    SenderThread:18359 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-03-12 16:32:27,194 INFO    SenderThread:18359 [sender.py:transition_state():613] send defer: 7
+2024-03-12 16:32:27,194 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 16:32:27,194 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: defer
+2024-03-12 16:32:27,194 INFO    HandlerThread:18359 [handler.py:handle_request_defer():172] handle defer: 7
+2024-03-12 16:32:27,195 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: defer
+2024-03-12 16:32:27,195 INFO    SenderThread:18359 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-03-12 16:32:27,754 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-12 16:32:27,824 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:32:27,824 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_created():271] file/dir created: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/wandb-summary.json
+2024-03-12 16:32:29,053 INFO    SenderThread:18359 [sender.py:transition_state():613] send defer: 8
+2024-03-12 16:32:29,053 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: poll_exit
+2024-03-12 16:32:29,054 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: defer
+2024-03-12 16:32:29,054 INFO    HandlerThread:18359 [handler.py:handle_request_defer():172] handle defer: 8
+2024-03-12 16:32:29,054 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: defer
+2024-03-12 16:32:29,054 INFO    SenderThread:18359 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-03-12 16:32:29,055 INFO    SenderThread:18359 [job_builder.py:build():298] Attempting to build job artifact
+2024-03-12 16:32:29,057 INFO    SenderThread:18359 [job_builder.py:_get_source_type():439] no source found
+2024-03-12 16:32:29,058 INFO    SenderThread:18359 [sender.py:transition_state():613] send defer: 9
+2024-03-12 16:32:29,058 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: defer
+2024-03-12 16:32:29,058 INFO    HandlerThread:18359 [handler.py:handle_request_defer():172] handle defer: 9
+2024-03-12 16:32:29,059 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: defer
+2024-03-12 16:32:29,059 INFO    SenderThread:18359 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-03-12 16:32:29,059 INFO    SenderThread:18359 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-12 16:32:29,757 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-12 16:32:29,825 INFO    Thread-12 :18359 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 16:32:29,826 INFO    SenderThread:18359 [dir_watcher.py:finish():388] scan: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files
+2024-03-12 16:32:29,827 INFO    SenderThread:18359 [dir_watcher.py:finish():402] scan save: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/requirements.txt requirements.txt
+2024-03-12 16:32:29,828 INFO    SenderThread:18359 [dir_watcher.py:finish():402] scan save: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/wandb-metadata.json wandb-metadata.json
+2024-03-12 16:32:29,828 INFO    SenderThread:18359 [dir_watcher.py:finish():402] scan save: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log output.log
+2024-03-12 16:32:29,840 INFO    SenderThread:18359 [dir_watcher.py:finish():402] scan save: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/config.yaml config.yaml
+2024-03-12 16:32:29,846 INFO    SenderThread:18359 [dir_watcher.py:finish():402] scan save: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/wandb-summary.json wandb-summary.json
+2024-03-12 16:32:29,847 INFO    SenderThread:18359 [sender.py:transition_state():613] send defer: 10
+2024-03-12 16:32:29,847 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: poll_exit
+2024-03-12 16:32:29,848 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: defer
+2024-03-12 16:32:29,856 INFO    HandlerThread:18359 [handler.py:handle_request_defer():172] handle defer: 10
+2024-03-12 16:32:29,857 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: defer
+2024-03-12 16:32:29,857 INFO    SenderThread:18359 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-03-12 16:32:29,858 INFO    SenderThread:18359 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-12 16:32:30,758 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-12 16:32:30,759 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: poll_exit
+2024-03-12 16:32:31,086 INFO    wandb-upload_2:18359 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/urllib3/connection.py", line 616, in connect
+    self.sock = sock = self._new_conn()
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/urllib3/connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x7b2ed43c4f10>: Failed to resolve 'api.wandb.ai' ([Errno -2] Name or service not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/urllib3/util/retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b2ed43c4f10>: Failed to resolve 'api.wandb.ai' ([Errno -2] Name or service not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 369, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/wandb/sdk/lib/gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 592, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 544, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 657, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b2ed43c4f10>: Failed to resolve 'api.wandb.ai' ([Errno -2] Name or service not known)"))
+2024-03-12 16:32:31,760 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-12 16:32:31,761 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: poll_exit
+2024-03-12 16:32:32,761 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-12 16:32:32,762 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: poll_exit
+2024-03-12 16:32:32,762 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 19:38:14,725 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-12 19:38:14,726 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: poll_exit
+2024-03-12 19:38:15,726 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-12 19:38:15,727 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: poll_exit
+2024-03-12 19:38:16,727 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-12 19:38:16,728 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: poll_exit
+2024-03-12 19:38:17,729 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-12 19:38:17,729 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: poll_exit
+2024-03-12 19:38:18,731 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-12 19:38:18,731 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: poll_exit
+2024-03-12 19:38:19,732 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 19:38:19,732 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-12 19:38:19,733 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: poll_exit
+2024-03-12 19:38:20,733 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-12 19:38:20,734 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: poll_exit
+2024-03-12 19:38:21,734 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-12 19:38:21,735 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: poll_exit
+2024-03-12 19:38:22,735 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-12 19:38:22,736 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: poll_exit
+2024-03-12 19:38:23,736 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-12 19:38:23,737 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: poll_exit
+2024-03-12 19:38:24,738 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 19:38:24,738 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-12 19:38:24,739 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: poll_exit
+2024-03-12 19:38:25,740 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-12 19:38:25,740 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: poll_exit
+2024-03-12 19:38:26,740 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-12 19:38:26,742 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: poll_exit
+2024-03-12 19:38:27,742 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-12 19:38:27,743 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: poll_exit
+2024-03-12 19:38:28,743 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-12 19:38:28,744 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: poll_exit
+2024-03-12 19:38:28,974 INFO    wandb-upload_2:18359 [upload_job.py:push():131] Uploaded file /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/config.yaml
+2024-03-12 19:38:29,111 INFO    wandb-upload_3:18359 [upload_job.py:push():131] Uploaded file /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/wandb-summary.json
+2024-03-12 19:38:29,744 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-12 19:38:29,745 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: status_report
+2024-03-12 19:38:29,745 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: poll_exit
+2024-03-12 19:38:30,670 INFO    wandb-upload_1:18359 [upload_job.py:push():131] Uploaded file /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/output.log
+2024-03-12 19:38:30,679 INFO    wandb-upload_0:18359 [upload_job.py:push():131] Uploaded file /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/files/requirements.txt
+2024-03-12 19:38:30,744 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-12 19:38:30,745 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: poll_exit
+2024-03-12 19:38:30,880 INFO    Thread-11 (_thread_body):18359 [sender.py:transition_state():613] send defer: 11
+2024-03-12 19:38:30,880 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: defer
+2024-03-12 19:38:30,880 INFO    HandlerThread:18359 [handler.py:handle_request_defer():172] handle defer: 11
+2024-03-12 19:38:30,881 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: defer
+2024-03-12 19:38:30,881 INFO    SenderThread:18359 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-03-12 19:38:30,881 INFO    SenderThread:18359 [file_pusher.py:join():178] waiting for file pusher
+2024-03-12 19:38:30,883 INFO    SenderThread:18359 [sender.py:transition_state():613] send defer: 12
+2024-03-12 19:38:30,884 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: defer
+2024-03-12 19:38:30,884 INFO    HandlerThread:18359 [handler.py:handle_request_defer():172] handle defer: 12
+2024-03-12 19:38:30,884 DEBUG   SenderThread:18359 [sender.py:send_request():405] send_request: defer
+2024-03-12 19:38:30,884 INFO    SenderThread:18359 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-03-12 19:38:30,884 INFO    SenderThread:18359 [file_stream.py:finish():595] file stream finish called
+2024-03-12 19:38:31,746 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-12 19:38:36,749 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-12 19:38:41,753 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-12 19:38:46,757 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-12 19:38:51,760 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-12 19:38:56,762 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-12 19:39:01,766 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-12 19:39:06,768 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-12 19:39:11,771 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-12 19:39:16,773 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-12 19:39:21,776 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-12 19:39:26,778 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-12 19:39:31,781 DEBUG   HandlerThread:18359 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-12 19:39:35,403 WARNING StreamThr :18359 [internal.py:is_dead():414] Internal process exiting, parent pid 18284 disappeared
+2024-03-12 19:39:35,403 ERROR   StreamThr :18359 [internal.py:wandb_internal():152] Internal process shutdown.
+2024-03-12 19:39:35,765 INFO    WriterThread:18359 [datastore.py:close():296] close: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240312_162302-s2rf2gyc/run-s2rf2gyc.wandb
+2024-03-12 19:39:35,784 INFO    HandlerThread:18359 [handler.py:finish():869] shutting down handler
+2024-03-12 19:40:41,985 WARNING FileStreamThread:18359 [file_stream.py:request_with_retry():668] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=180.0). func: functools.partial(<bound method Session.post of <requests.sessions.Session object at 0x7b2ed7efa4d0>>, timeout=180.0), args: ('https://api.wandb.ai/files/multitudinous/FashionMNIST/s2rf2gyc/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 16, 'content': ['{"system.proc.memory.availableMB": 394.44, "system.memory": 97.43, "system.proc.memory.rssMB": 8383.48, "system.proc.memory.percent": 54.59, "system.network.sent": 1118016.53, "system.network.recv": 3542398.8, "system.cpu": 32.56, "system.cpu.0.cpu_percent": 42.55, "system.cpu.1.cpu_percent": 37.7, "system.cpu.2.cpu_percent": 29.39, "system.cpu.3.cpu_percent": 45.37, "system.cpu.4.cpu_percent": 34.78, "system.cpu.5.cpu_percent": 40.7, "system.cpu.6.cpu_percent": 24.04, "system.cpu.7.cpu_percent": 44.17, "system.cpu.8.cpu_percent": 34.4, "system.cpu.9.cpu_percent": 35.83, "system.cpu.10.cpu_percent": 38.96, "system.cpu.11.cpu_percent": 29.44, "system.proc.cpu.threads": 14, "system.disk.\\\\.usagePercent": 27.1, "system.disk.\\\\.usageGB": 118.34, "system.disk.in": 2446.72, "system.disk.out": 10874.55, "system.gpu.0.memoryAllocated": 14.11, "system.gpu.process.0.memoryAllocated": 14.11, "system.gpu.0.memoryAllocatedBytes": 605880320.0, "system.gpu.process.0.memoryAllocatedBytes": 605880320.0, "system.gpu.0.memory": 36.4, "system.gpu.process.0.memory": 36.4, "system.gpu.0.gpu": 97.33, "system.gpu.process.0.gpu": 97.33, "system.gpu.0.temp": 53.13, "system.gpu.process.0.temp": 53.13, "system.gpu.0.powerWatts": 41.86, "system.gpu.process.0.powerWatts": 41.86, "system.gpu.0.powerPercent": 96.99, "system.gpu.process.0.powerPercent": 96.99, "_wandb": true, "_timestamp": 1710261122.83657, "_runtime": 540.783115}']}, 'output.log': {'offset': 94, 'content': ['2024-03-12T16:31:39.525560 Batch: 2800/3750\n', '2024-03-12T16:31:53.584981 Batch: 3200/3750\n']}}, 'dropped': 0}}
+2024-03-12 19:40:44,767 ERROR   FileStreamThread:18359 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/multitudinous/FashionMNIST/s2rf2gyc/file_stream
+NoneType: None
+2024-03-12 19:40:44,973 ERROR   FileStreamThread:18359 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/multitudinous/FashionMNIST/s2rf2gyc/file_stream
+NoneType: None
+2024-03-12 19:40:45,384 INFO    SenderThread:18359 [file_stream.py:finish():599] file stream finish is done
+2024-03-12 19:40:45,384 INFO    SenderThread:18359 [sender.py:transition_state():613] send defer: 13
+2024-03-12 19:40:45,385 INFO    SenderThread:18359 [sender.py:finish():1521] shutting down sender
+2024-03-12 19:40:45,385 INFO    SenderThread:18359 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-12 19:40:45,385 INFO    SenderThread:18359 [file_pusher.py:join():178] waiting for file pusher

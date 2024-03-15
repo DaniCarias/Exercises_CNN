@@ -1,0 +1,51 @@
+Labels: 10
+--------Epoch: 0
+-Training...
+Batch: 0/3750
+Batch: 400/3750
+Batch: 800/3750
+Batch: 1200/3750
+Batch: 1600/3750
+Batch: 2000/3750
+Batch: 2400/3750
+Batch: 2800/3750
+Batch: 3200/3750
+Batch: 3600/3750
+Per batch -> Train Loss: 1.0578835010528564 | Train Accuracy: 63.65%
+-Testing...
+Batch: 0/625
+Batch: 50/625
+Batch: 100/625
+Batch: 150/625
+Batch: 200/625
+Batch: 250/625
+Batch: 300/625
+Batch: 350/625
+Batch: 400/625
+Batch: 450/625
+Batch: 500/625
+Batch: 550/625
+Batch: 600/625
+Per batch -> Test Loss: 0.8863456845283508 | Test Accuracy: 69.97%
+--------Epoch: 1
+-Training...
+Batch: 0/3750
+Batch: 400/3750
+Batch: 800/3750
+Batch: 1200/3750
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 156, in <module>
+    train_loss, train_acc = train_model(model, train_dataloader, loss_fn, optimizer)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 73, in train_model
+    train_acc += accuracy_fn(y, train_pred.argmax(dim=1))
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/utils.py", line 19, in accuracy_fn
+    correct = torch.eq(y_true, y_pred).sum().item()
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 156, in <module>
+    train_loss, train_acc = train_model(model, train_dataloader, loss_fn, optimizer)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 73, in train_model
+    train_acc += accuracy_fn(y, train_pred.argmax(dim=1))
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/utils.py", line 19, in accuracy_fn
+    correct = torch.eq(y_true, y_pred).sum().item()
+KeyboardInterrupt

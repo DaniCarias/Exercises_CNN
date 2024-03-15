@@ -1,0 +1,64 @@
+Dataset: ./data/cats_dogs_full/train and ./data/cats_dogs_full/test
+Train dataloader: 624 batches
+Test dataloader: 157 batches
+--------Epoch: 0
+-Training...
+Batch: 0/624
+/home/danielcarias/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Batch: 400/624
+Per batch -> Train Loss: 0.6934385895729065 | Train Accuracy: 50.94%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.6926195025444031 | Test Accuracy: 50.08%
+--------Epoch: 1
+-Training...
+Batch: 0/624
+/home/danielcarias/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Batch: 400/624
+Per batch -> Train Loss: 0.6899075508117676 | Train Accuracy: 53.92%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.6883574724197388 | Test Accuracy: 55.67%
+--------Epoch: 2
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.6827182769775391 | Train Accuracy: 57.09%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.6887445449829102 | Test Accuracy: 55.18%
+--------Epoch: 3
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.6739904880523682 | Train Accuracy: 58.67%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.6740485429763794 | Test Accuracy: 58.18%
+--------Epoch: 4
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.6647080183029175 | Train Accuracy: 60.21%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.6756265759468079 | Test Accuracy: 59.51%
+------ Final Results ------
+Model: 0.6781347990036011 | Loss: 58.89729299363057 | Accuracy: ModelCNN

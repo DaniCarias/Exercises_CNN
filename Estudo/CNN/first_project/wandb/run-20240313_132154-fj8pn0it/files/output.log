@@ -1,0 +1,68 @@
+Dataset: ./data/cats_dogs_full/train and ./data/cats_dogs_full/test
+Train dataloader: 624 batches
+Test dataloader: 157 batches
+--------Epoch: 0
+-Training...
+Batch: 0/624
+/home/danielcarias/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Batch: 400/624
+Per batch -> Train Loss: 50.00534439086914 | Train Accuracy: 49.99%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 50.19904708862305 | Test Accuracy: 49.80%
+--------Epoch: 1
+-Training...
+Batch: 0/624
+/home/danielcarias/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Batch: 400/624
+Per batch -> Train Loss: 50.00534439086914 | Train Accuracy: 49.99%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 49.582008361816406 | Test Accuracy: 50.42%
+--------Epoch: 2
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 50.00467300415039 | Train Accuracy: 50.00%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 49.582008361816406 | Test Accuracy: 50.42%
+--------Epoch: 3
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 50.00567626953125 | Train Accuracy: 49.99%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 157, in <module>
+    test_loss, test_acc = test_model(model, test_dataloader, loss_fn)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 92, in test_model
+    for batch, (X, y) in enumerate(data_loader):
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 157, in <module>
+    test_loss, test_acc = test_model(model, test_dataloader, loss_fn)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 92, in test_model
+    for batch, (X, y) in enumerate(data_loader):
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+KeyboardInterrupt

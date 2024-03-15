@@ -1,0 +1,43 @@
+Dataset: ./data/cats_dogs_full/train and ./data/cats_dogs_full/test
+Train dataloader: 624 batches
+Test dataloader: 157 batches
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 134, in <module>
+    train_dataloader, test_dataloader = create_data_loaders(train_dir, test_dir)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/data_process.py", line 95, in create_data_loaders
+    plot_img(train_dataset)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/utils.py", line 69, in plot_img
+    plt.show()
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/matplotlib/pyplot.py", line 527, in show
+    return _get_backend_mod().show(*args, **kwargs)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/matplotlib/backend_bases.py", line 3457, in show
+    cls.mainloop()
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/matplotlib/backends/_backend_gtk.py", line 207, in start_main_loop
+    _application.run()  # Quits when all added windows close.
+  File "/usr/lib/python3/dist-packages/gi/overrides/Gio.py", line 40, in run
+    with register_sigint_fallback(self.quit):
+  File "/usr/lib/python3.10/contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "/usr/lib/python3/dist-packages/gi/_ossighelper.py", line 237, in register_sigint_fallback
+    signal.default_int_handler(signal.SIGINT, None)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 134, in <module>
+    train_dataloader, test_dataloader = create_data_loaders(train_dir, test_dir)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/data_process.py", line 95, in create_data_loaders
+    plot_img(train_dataset)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/utils.py", line 69, in plot_img
+    plt.show()
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/matplotlib/pyplot.py", line 527, in show
+    return _get_backend_mod().show(*args, **kwargs)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/matplotlib/backend_bases.py", line 3457, in show
+    cls.mainloop()
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/matplotlib/backends/_backend_gtk.py", line 207, in start_main_loop
+    _application.run()  # Quits when all added windows close.
+  File "/usr/lib/python3/dist-packages/gi/overrides/Gio.py", line 40, in run
+    with register_sigint_fallback(self.quit):
+  File "/usr/lib/python3.10/contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "/usr/lib/python3/dist-packages/gi/_ossighelper.py", line 237, in register_sigint_fallback
+    signal.default_int_handler(signal.SIGINT, None)
+KeyboardInterrupt

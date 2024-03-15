@@ -1,0 +1,114 @@
+Dataset: ./data/cats_dogs_full/train and ./data/cats_dogs_full/test
+Train dataloader: 624 batches
+Test dataloader: 157 batches
+--------Epoch: 0
+-Training...
+Batch: 0/624
+Batch: 400/624
+/home/danielcarias/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Per batch -> Train Loss: 0.6936696767807007 | Train Accuracy: 0.00%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.6933048367500305 | Test Accuracy: 0.00%
+--------Epoch: 1
+-Training...
+Batch: 0/624
+/home/danielcarias/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Batch: 400/624
+Per batch -> Train Loss: 0.6932054162025452 | Train Accuracy: 0.00%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.6936787366867065 | Test Accuracy: 0.00%
+--------Epoch: 2
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.6927424669265747 | Train Accuracy: 0.00%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.6920793056488037 | Test Accuracy: 0.00%
+--------Epoch: 3
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.6911134719848633 | Train Accuracy: 0.00%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.6896377205848694 | Test Accuracy: 0.00%
+--------Epoch: 4
+-Training...
+Batch: 0/624
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 154, in <module>
+    train_loss, train_acc = train_model(model, train_dataloader, loss_fn, optimizer)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 48, in train_model
+    for batch, (X, y) in enumerate(data_loader):
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torchvision/datasets/folder.py", line 231, in __getitem__
+    sample = self.transform(sample)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 354, in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torchvision/transforms/functional.py", line 467, in resize
+    return F_pil.resize(img, size=output_size, interpolation=pil_interpolation)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torchvision/transforms/_functional_pil.py", line 250, in resize
+    return img.resize(tuple(size[::-1]), interpolation)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/PIL/Image.py", line 2200, in resize
+    return self._new(self.im.resize(size, resample, box))
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 154, in <module>
+    train_loss, train_acc = train_model(model, train_dataloader, loss_fn, optimizer)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 48, in train_model
+    for batch, (X, y) in enumerate(data_loader):
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torchvision/datasets/folder.py", line 231, in __getitem__
+    sample = self.transform(sample)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 354, in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torchvision/transforms/functional.py", line 467, in resize
+    return F_pil.resize(img, size=output_size, interpolation=pil_interpolation)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torchvision/transforms/_functional_pil.py", line 250, in resize
+    return img.resize(tuple(size[::-1]), interpolation)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/PIL/Image.py", line 2200, in resize
+    return self._new(self.im.resize(size, resample, box))
+KeyboardInterrupt

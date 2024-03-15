@@ -1,0 +1,242 @@
+Image size: torch.Size([1, 128, 128])
+Labels: 10
+--------Epoch: 0
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 1.9073055982589722 | Train Accuracy: 29.37%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 1.208170771598816 | Test Accuracy: 55.28%
+--------Epoch: 1
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.974862277507782 | Train Accuracy: 66.52%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.8536889553070068 | Test Accuracy: 70.79%
+--------Epoch: 2
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.7867369055747986 | Train Accuracy: 72.74%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.7445207238197327 | Test Accuracy: 73.96%
+--------Epoch: 3
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.6996973156929016 | Train Accuracy: 75.76%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.7032350301742554 | Test Accuracy: 75.24%
+--------Epoch: 4
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.6479150056838989 | Train Accuracy: 77.26%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.6739987134933472 | Test Accuracy: 76.26%
+--------Epoch: 5
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.6047016382217407 | Train Accuracy: 78.83%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.647141695022583 | Test Accuracy: 77.31%
+--------Epoch: 6
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.5824509859085083 | Train Accuracy: 79.61%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.6098291873931885 | Test Accuracy: 78.77%
+--------Epoch: 7
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.5712088346481323 | Train Accuracy: 80.08%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.5726833343505859 | Test Accuracy: 79.82%
+--------Epoch: 8
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.5548109412193298 | Train Accuracy: 80.64%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.5540574789047241 | Test Accuracy: 80.37%
+--------Epoch: 9
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.540946900844574 | Train Accuracy: 81.03%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.5471469163894653 | Test Accuracy: 81.04%
+--------Epoch: 10
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.5327437520027161 | Train Accuracy: 81.14%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.5659127235412598 | Test Accuracy: 80.51%
+--------Epoch: 11
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.5207385420799255 | Train Accuracy: 81.80%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.5421161651611328 | Test Accuracy: 81.09%
+--------Epoch: 12
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.5150782465934753 | Train Accuracy: 81.93%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.5470972061157227 | Test Accuracy: 81.06%
+--------Epoch: 13
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.5089190006256104 | Train Accuracy: 82.25%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.5216779112815857 | Test Accuracy: 81.97%
+------ Final Results ------
+Model: 0.5284823179244995 | Loss: 81.44968051118211 | Accuracy: ModelCNN

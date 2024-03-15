@@ -1,0 +1,126 @@
+Dataset: ./data/cats_dogs_full/train and ./data/cats_dogs_full/test
+Train dataloader: 624 batches
+Test dataloader: 157 batches
+--------Epoch: 0
+-Training...
+Batch: 0/624
+Batch: 400/624
+/home/danielcarias/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Per batch -> Train Loss: 0.6933541893959045 | Train Accuracy: 51.06%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.6930771470069885 | Test Accuracy: 50.52%
+--------Epoch: 1
+-Training...
+Batch: 0/624
+/home/danielcarias/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Batch: 400/624
+Per batch -> Train Loss: 0.692892849445343 | Train Accuracy: 50.61%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.6895489692687988 | Test Accuracy: 56.89%
+--------Epoch: 2
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.685348391532898 | Train Accuracy: 56.06%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.6853994131088257 | Test Accuracy: 54.58%
+--------Epoch: 3
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.6790037155151367 | Train Accuracy: 57.81%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.673727810382843 | Test Accuracy: 57.23%
+--------Epoch: 4
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.686270534992218 | Train Accuracy: 54.13%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.6923645734786987 | Test Accuracy: 51.95%
+--------Epoch: 5
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.6864116191864014 | Train Accuracy: 55.52%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.6831111311912537 | Test Accuracy: 55.99%
+--------Epoch: 6
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.6880683898925781 | Train Accuracy: 53.42%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.6938450336456299 | Test Accuracy: 49.90%
+--------Epoch: 7
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.6935487389564514 | Train Accuracy: 49.67%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.6936172842979431 | Test Accuracy: 49.90%
+--------Epoch: 8
+-Training...
+Batch: 0/624
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 153, in <module>
+    train_loss, train_acc = train_model(model, train_dataloader, loss_fn, optimizer)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 74, in train_model
+    optimizer.zero_grad()
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/_compile.py", line 24, in inner
+    return torch._dynamo.disable(fn, recursive)(*args, **kwargs)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py", line 489, in _fn
+    return fn(*args, **kwargs)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/optim/optimizer.py", line 815, in zero_grad
+    with torch.autograd.profiler.record_function(self._zero_grad_profile_name):
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/autograd/profiler.py", line 593, in __init__
+    def __init__(self, name: str, args: Optional[str] = None):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 153, in <module>
+    train_loss, train_acc = train_model(model, train_dataloader, loss_fn, optimizer)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 74, in train_model
+    optimizer.zero_grad()
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/_compile.py", line 24, in inner
+    return torch._dynamo.disable(fn, recursive)(*args, **kwargs)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py", line 489, in _fn
+    return fn(*args, **kwargs)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/optim/optimizer.py", line 815, in zero_grad
+    with torch.autograd.profiler.record_function(self._zero_grad_profile_name):
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/autograd/profiler.py", line 593, in __init__
+    def __init__(self, name: str, args: Optional[str] = None):
+KeyboardInterrupt

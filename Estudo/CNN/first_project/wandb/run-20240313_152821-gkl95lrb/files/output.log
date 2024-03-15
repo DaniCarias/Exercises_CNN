@@ -1,0 +1,385 @@
+Dataset: ./data/cats_dogs_full/train and ./data/cats_dogs_full/test
+Train dataloader: 624 batches
+Test dataloader: 157 batches
+--------Epoch: 0
+-Training...
+Batch: 0/624
+Batch: 400/624
+/home/danielcarias/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Per batch -> Train Loss: 0.6922382116317749 | Train Accuracy: 51.87%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.6887097358703613 | Test Accuracy: 55.71%
+--------Epoch: 1
+-Training...
+Batch: 0/624
+Batch: 400/624
+/home/danielcarias/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Per batch -> Train Loss: 0.6805449724197388 | Train Accuracy: 57.69%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.6696916222572327 | Test Accuracy: 59.87%
+--------Epoch: 2
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.6648860573768616 | Train Accuracy: 60.15%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.657794713973999 | Test Accuracy: 61.90%
+--------Epoch: 3
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.650836169719696 | Train Accuracy: 62.08%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.6402778029441833 | Test Accuracy: 63.55%
+--------Epoch: 4
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.6211901307106018 | Train Accuracy: 65.12%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.6056579351425171 | Test Accuracy: 67.06%
+--------Epoch: 5
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.5905048251152039 | Train Accuracy: 68.79%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.5781063437461853 | Test Accuracy: 69.27%
+--------Epoch: 6
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.5659571290016174 | Train Accuracy: 70.77%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.6553260087966919 | Test Accuracy: 63.77%
+--------Epoch: 7
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.5445124506950378 | Train Accuracy: 72.32%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.559971034526825 | Test Accuracy: 70.70%
+--------Epoch: 8
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.5274530053138733 | Train Accuracy: 73.79%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.605625569820404 | Test Accuracy: 69.27%
+--------Epoch: 9
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.5111657977104187 | Train Accuracy: 75.06%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.5326685309410095 | Test Accuracy: 73.59%
+--------Epoch: 10
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.49173957109451294 | Train Accuracy: 76.21%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.5361623764038086 | Test Accuracy: 73.11%
+--------Epoch: 11
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.47554388642311096 | Train Accuracy: 77.61%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.5660733580589294 | Test Accuracy: 72.35%
+--------Epoch: 12
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.46115216612815857 | Train Accuracy: 78.38%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.5101032853126526 | Test Accuracy: 74.74%
+--------Epoch: 13
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.4467253088951111 | Train Accuracy: 79.31%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.5066556334495544 | Test Accuracy: 75.52%
+--------Epoch: 14
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.4354901909828186 | Train Accuracy: 80.13%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.4883461892604828 | Test Accuracy: 76.41%
+--------Epoch: 15
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.42093008756637573 | Train Accuracy: 81.04%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.491155743598938 | Test Accuracy: 76.49%
+--------Epoch: 16
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.409333735704422 | Train Accuracy: 81.50%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.5243027806282043 | Test Accuracy: 75.16%
+--------Epoch: 17
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.3956928849220276 | Train Accuracy: 82.40%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.4896158277988434 | Test Accuracy: 77.01%
+--------Epoch: 18
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.38378578424453735 | Train Accuracy: 83.01%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.5206577777862549 | Test Accuracy: 76.09%
+--------Epoch: 19
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.3717290163040161 | Train Accuracy: 83.80%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.5192999839782715 | Test Accuracy: 76.81%
+--------Epoch: 20
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.3598055839538574 | Train Accuracy: 84.25%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.5112258791923523 | Test Accuracy: 76.11%
+--------Epoch: 21
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.3480093777179718 | Train Accuracy: 84.86%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.5306527614593506 | Test Accuracy: 75.90%
+--------Epoch: 22
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.33484357595443726 | Train Accuracy: 85.38%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.6030488610267639 | Test Accuracy: 73.57%
+--------Epoch: 23
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.3237842619419098 | Train Accuracy: 86.16%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.5098884701728821 | Test Accuracy: 76.69%
+--------Epoch: 24
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.3057152330875397 | Train Accuracy: 86.61%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.540192723274231 | Test Accuracy: 75.90%
+--------Epoch: 25
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.2917020618915558 | Train Accuracy: 87.68%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.5399462580680847 | Test Accuracy: 76.63%
+--------Epoch: 26
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.2763656973838806 | Train Accuracy: 88.42%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.5481758713722229 | Test Accuracy: 77.11%
+--------Epoch: 27
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.26286765933036804 | Train Accuracy: 89.22%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.5641358494758606 | Test Accuracy: 76.59%
+--------Epoch: 28
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.24269400537014008 | Train Accuracy: 89.99%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.6120830774307251 | Test Accuracy: 76.00%
+--------Epoch: 29
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.22823089361190796 | Train Accuracy: 90.68%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.6487715840339661 | Test Accuracy: 75.76%
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 154, in <module>
+    model, loss, accuracy  = eval_model(model, test_dataloader, loss_fn, accuracy_fn, device)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/utils.py", line 50, in eval_model
+    for X, y in data_loader:
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torchvision/datasets/folder.py", line 229, in __getitem__
+    sample = self.loader(path)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torchvision/datasets/folder.py", line 268, in default_loader
+    return pil_loader(path)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torchvision/datasets/folder.py", line 248, in pil_loader
+    return img.convert("RGB")
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/PIL/Image.py", line 922, in convert
+    self.load()
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/PIL/ImageFile.py", line 291, in load
+    n, err_code = decoder.decode(b)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 154, in <module>
+    model, loss, accuracy  = eval_model(model, test_dataloader, loss_fn, accuracy_fn, device)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/utils.py", line 50, in eval_model
+    for X, y in data_loader:
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torchvision/datasets/folder.py", line 229, in __getitem__
+    sample = self.loader(path)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torchvision/datasets/folder.py", line 268, in default_loader
+    return pil_loader(path)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torchvision/datasets/folder.py", line 248, in pil_loader
+    return img.convert("RGB")
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/PIL/Image.py", line 922, in convert
+    self.load()
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/PIL/ImageFile.py", line 291, in load
+    n, err_code = decoder.decode(b)
+KeyboardInterrupt

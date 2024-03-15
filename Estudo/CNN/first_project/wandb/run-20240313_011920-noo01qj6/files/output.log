@@ -1,0 +1,75 @@
+Image size: torch.Size([1, 128, 128])
+Labels: 10
+--------Epoch: 0
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 2.3033432960510254 | Train Accuracy: 10.04%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 2.3032290935516357 | Test Accuracy: 10.00%
+--------Epoch: 1
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 2.303408145904541 | Train Accuracy: 9.76%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 2.3030993938446045 | Test Accuracy: 10.00%
+--------Epoch: 2
+-Training...
+Batch: 0/1875
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 153, in <module>
+    train_loss, train_acc = train_model(model, train_dataloader, loss_fn, optimizer)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 74, in train_model
+    optimizer.zero_grad()
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/_compile.py", line 24, in inner
+    return torch._dynamo.disable(fn, recursive)(*args, **kwargs)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/_dynamo/decorators.py", line 46, in disable
+    return DisableContext()(fn)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py", line 441, in __call__
+    (filename is None or skipfiles.check(fn))
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/_dynamo/skipfiles.py", line 405, in check
+    return check_verbose(obj, is_inlined_call).skipped
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/_dynamo/skipfiles.py", line 401, in check_verbose
+    return check_file(fi.filename, is_inlined_call)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/_dynamo/skipfiles.py", line 309, in check_file
+    return SkipResult(
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 153, in <module>
+    train_loss, train_acc = train_model(model, train_dataloader, loss_fn, optimizer)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 74, in train_model
+    optimizer.zero_grad()
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/_compile.py", line 24, in inner
+    return torch._dynamo.disable(fn, recursive)(*args, **kwargs)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/_dynamo/decorators.py", line 46, in disable
+    return DisableContext()(fn)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py", line 441, in __call__
+    (filename is None or skipfiles.check(fn))
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/_dynamo/skipfiles.py", line 405, in check
+    return check_verbose(obj, is_inlined_call).skipped
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/_dynamo/skipfiles.py", line 401, in check_verbose
+    return check_file(fi.filename, is_inlined_call)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/_dynamo/skipfiles.py", line 309, in check_file
+    return SkipResult(
+KeyboardInterrupt

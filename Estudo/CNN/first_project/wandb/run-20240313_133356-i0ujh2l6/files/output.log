@@ -1,0 +1,17 @@
+Dataset: ./data/cats_dogs_full/train and ./data/cats_dogs_full/test
+Train dataloader: 19966 batches
+Test dataloader: 4993 batches
+--------Epoch: 0
+-Training...
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 154, in <module>
+    train_loss, train_acc = train_model(model, train_dataloader, loss_fn, optimizer)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 63, in train_model
+    print(f"Train_pred: {train_pred[:3]} | y: {y[:3]}")
+IndexError: Dimension specified as 0 but tensor has no dimensions
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 154, in <module>
+    train_loss, train_acc = train_model(model, train_dataloader, loss_fn, optimizer)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 63, in train_model
+    print(f"Train_pred: {train_pred[:3]} | y: {y[:3]}")
+IndexError: Dimension specified as 0 but tensor has no dimensions

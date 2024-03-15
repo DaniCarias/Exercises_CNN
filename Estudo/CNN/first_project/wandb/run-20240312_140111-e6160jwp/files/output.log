@@ -1,0 +1,21 @@
+Labels: 10
+--------Epoch: 0
+-Training...
+Batch: 0/3750
+Batch: 400/3750
+Batch: 800/3750
+Batch: 1200/3750
+Batch: 1600/3750
+Batch: 2000/3750
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 156, in <module>
+    train_loss, train_acc = train_model(model, train_dataloader, loss_fn, optimizer)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 67, in train_model
+    X, y = X.to(device), y.to(device)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 156, in <module>
+    train_loss, train_acc = train_model(model, train_dataloader, loss_fn, optimizer)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 67, in train_model
+    X, y = X.to(device), y.to(device)
+KeyboardInterrupt

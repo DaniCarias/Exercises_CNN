@@ -1,0 +1,122 @@
+Labels: 10
+--------Epoch: 0
+-Training...
+Batch: 0/3750
+Batch: 400/3750
+Batch: 800/3750
+Batch: 1200/3750
+Batch: 1600/3750
+Batch: 2000/3750
+Batch: 2400/3750
+Batch: 2800/3750
+Batch: 3200/3750
+Batch: 3600/3750
+Per batch -> Train Loss: 1.6899172067642212 | Train Accuracy: 39.52%
+-Testing...
+Batch: 0/625
+Batch: 50/625
+Batch: 100/625
+Batch: 150/625
+Batch: 200/625
+Batch: 250/625
+Batch: 300/625
+Batch: 350/625
+Batch: 400/625
+Batch: 450/625
+Batch: 500/625
+Batch: 550/625
+Batch: 600/625
+Per batch -> Test Loss: 1.0788718461990356 | Test Accuracy: 63.73%
+--------Epoch: 1
+-Training...
+Batch: 0/3750
+Batch: 400/3750
+Batch: 800/3750
+Batch: 1200/3750
+Batch: 1600/3750
+Batch: 2000/3750
+Batch: 2400/3750
+Batch: 2800/3750
+Batch: 3200/3750
+Batch: 3600/3750
+Per batch -> Train Loss: 1.0405585765838623 | Train Accuracy: 64.72%
+-Testing...
+Batch: 0/625
+Batch: 50/625
+Batch: 100/625
+Batch: 150/625
+Batch: 200/625
+Batch: 250/625
+Batch: 300/625
+Batch: 350/625
+Batch: 400/625
+Batch: 450/625
+Batch: 500/625
+Batch: 550/625
+Batch: 600/625
+Per batch -> Test Loss: 1.0144808292388916 | Test Accuracy: 64.73%
+--------Epoch: 2
+-Training...
+Batch: 0/3750
+Batch: 400/3750
+Batch: 800/3750
+Batch: 1200/3750
+Batch: 1600/3750
+Batch: 2000/3750
+Batch: 2400/3750
+Batch: 2800/3750
+Batch: 3200/3750
+Batch: 3600/3750
+Per batch -> Train Loss: 0.977371871471405 | Train Accuracy: 66.51%
+-Testing...
+Batch: 0/625
+Batch: 50/625
+Batch: 100/625
+Batch: 150/625
+Batch: 200/625
+Batch: 250/625
+Batch: 300/625
+Batch: 350/625
+Batch: 400/625
+Batch: 450/625
+Batch: 500/625
+Batch: 550/625
+Batch: 600/625
+Per batch -> Test Loss: 0.9580626487731934 | Test Accuracy: 67.31%
+--------Epoch: 3
+-Training...
+Batch: 0/3750
+Batch: 400/3750
+Batch: 800/3750
+Batch: 1200/3750
+Batch: 1600/3750
+Batch: 2000/3750
+Batch: 2400/3750
+Batch: 2800/3750
+Batch: 3200/3750
+Batch: 3600/3750
+Per batch -> Train Loss: 0.9286835789680481 | Train Accuracy: 67.89%
+-Testing...
+Batch: 0/625
+Batch: 50/625
+Batch: 100/625
+Batch: 150/625
+Batch: 200/625
+Batch: 250/625
+Batch: 300/625
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 156, in <module>
+    test_loss, test_acc = test_model(model, test_dataloader, loss_fn)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 102, in test_model
+    test_acc += accuracy_fn(y, test_pred.argmax(dim=1))
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/utils.py", line 19, in accuracy_fn
+    correct = torch.eq(y_true, y_pred).sum().item()
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 156, in <module>
+    test_loss, test_acc = test_model(model, test_dataloader, loss_fn)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 102, in test_model
+    test_acc += accuracy_fn(y, test_pred.argmax(dim=1))
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/utils.py", line 19, in accuracy_fn
+    correct = torch.eq(y_true, y_pred).sum().item()
+KeyboardInterrupt

@@ -1,0 +1,312 @@
+Image size: torch.Size([1, 128, 128])
+Labels: 10
+--------Epoch: 0
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 1.2310205698013306 | Train Accuracy: 57.44%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 1.0029109716415405 | Test Accuracy: 65.65%
+--------Epoch: 1
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.9011660814285278 | Train Accuracy: 69.09%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.8368510603904724 | Test Accuracy: 70.69%
+--------Epoch: 2
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.792461633682251 | Train Accuracy: 72.87%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.7636415958404541 | Test Accuracy: 73.88%
+--------Epoch: 3
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.7334136962890625 | Train Accuracy: 74.98%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.7113825678825378 | Test Accuracy: 75.35%
+--------Epoch: 4
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.6929936408996582 | Train Accuracy: 76.45%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.6746955513954163 | Test Accuracy: 76.68%
+--------Epoch: 5
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.6709940433502197 | Train Accuracy: 76.99%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.6603438854217529 | Test Accuracy: 77.37%
+--------Epoch: 6
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.642508864402771 | Train Accuracy: 77.85%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.6311562657356262 | Test Accuracy: 78.22%
+--------Epoch: 7
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.6322769522666931 | Train Accuracy: 78.16%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.6603904962539673 | Test Accuracy: 78.06%
+--------Epoch: 8
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.60658860206604 | Train Accuracy: 79.07%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.6425995230674744 | Test Accuracy: 78.28%
+--------Epoch: 9
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.5909456014633179 | Train Accuracy: 79.62%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.6482084393501282 | Test Accuracy: 78.13%
+--------Epoch: 10
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.5816901326179504 | Train Accuracy: 79.89%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.608221173286438 | Test Accuracy: 79.68%
+--------Epoch: 11
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.5734348893165588 | Train Accuracy: 80.30%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.6006558537483215 | Test Accuracy: 79.07%
+--------Epoch: 12
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.5613398551940918 | Train Accuracy: 80.50%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.5996867418289185 | Test Accuracy: 78.98%
+--------Epoch: 13
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.5504878759384155 | Train Accuracy: 81.02%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.5746524333953857 | Test Accuracy: 80.37%
+--------Epoch: 14
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.5453048944473267 | Train Accuracy: 81.13%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.548026442527771 | Test Accuracy: 80.92%
+--------Epoch: 15
+-Training...
+Batch: 0/1875
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 153, in <module>
+    train_loss, train_acc = train_model(model, train_dataloader, loss_fn, optimizer)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 65, in train_model
+    for batch, (X, y) in enumerate(data_loader):
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torchvision/datasets/mnist.py", line 145, in __getitem__
+    img = self.transform(img)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torchvision/transforms/autoaugment.py", line 441, in forward
+    op_meta = self._augmentation_space(self.num_magnitude_bins)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torchvision/transforms/autoaugment.py", line 420, in _augmentation_space
+    "Posterize": (8 - (torch.arange(num_bins) / ((num_bins - 1) / 6)).round().int(), False),
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 153, in <module>
+    train_loss, train_acc = train_model(model, train_dataloader, loss_fn, optimizer)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 65, in train_model
+    for batch, (X, y) in enumerate(data_loader):
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torchvision/datasets/mnist.py", line 145, in __getitem__
+    img = self.transform(img)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torchvision/transforms/autoaugment.py", line 441, in forward
+    op_meta = self._augmentation_space(self.num_magnitude_bins)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torchvision/transforms/autoaugment.py", line 420, in _augmentation_space
+    "Posterize": (8 - (torch.arange(num_bins) / ((num_bins - 1) / 6)).round().int(), False),
+KeyboardInterrupt

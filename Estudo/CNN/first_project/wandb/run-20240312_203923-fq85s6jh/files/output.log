@@ -1,0 +1,143 @@
+Labels: 10
+--------Epoch: 0
+-Training...
+Batch: 0/3750
+Batch: 400/3750
+Batch: 800/3750
+Batch: 1200/3750
+Batch: 1600/3750
+Batch: 2000/3750
+Batch: 2400/3750
+Batch: 2800/3750
+Batch: 3200/3750
+Batch: 3600/3750
+Per batch -> Train Loss: 1.2864434719085693 | Train Accuracy: 56.24%
+-Testing...
+Batch: 0/625
+Batch: 50/625
+Batch: 100/625
+Batch: 150/625
+Batch: 200/625
+Batch: 250/625
+Batch: 300/625
+Batch: 350/625
+Batch: 400/625
+Batch: 450/625
+Batch: 500/625
+Batch: 550/625
+Batch: 600/625
+Per batch -> Test Loss: 1.0518549680709839 | Test Accuracy: 64.68%
+--------Epoch: 1
+-Training...
+Batch: 0/3750
+Batch: 400/3750
+Batch: 800/3750
+Batch: 1200/3750
+Batch: 1600/3750
+Batch: 2000/3750
+Batch: 2400/3750
+Batch: 2800/3750
+Batch: 3200/3750
+Batch: 3600/3750
+Per batch -> Train Loss: 0.9955455660820007 | Train Accuracy: 66.12%
+-Testing...
+Batch: 0/625
+Batch: 50/625
+Batch: 100/625
+Batch: 150/625
+Batch: 200/625
+Batch: 250/625
+Batch: 300/625
+Batch: 350/625
+Batch: 400/625
+Batch: 450/625
+Batch: 500/625
+Batch: 550/625
+Batch: 600/625
+Per batch -> Test Loss: 0.9756675362586975 | Test Accuracy: 66.48%
+--------Epoch: 2
+-Training...
+Batch: 0/3750
+Batch: 400/3750
+Batch: 800/3750
+Batch: 1200/3750
+Batch: 1600/3750
+Batch: 2000/3750
+Batch: 2400/3750
+Batch: 2800/3750
+Batch: 3200/3750
+Batch: 3600/3750
+Per batch -> Train Loss: 0.943736732006073 | Train Accuracy: 67.81%
+-Testing...
+Batch: 0/625
+Batch: 50/625
+Batch: 100/625
+Batch: 150/625
+Batch: 200/625
+Batch: 250/625
+Batch: 300/625
+Batch: 350/625
+Batch: 400/625
+Batch: 450/625
+Batch: 500/625
+Batch: 550/625
+Batch: 600/625
+Per batch -> Test Loss: 0.9513558149337769 | Test Accuracy: 67.06%
+--------Epoch: 3
+-Training...
+Batch: 0/3750
+Batch: 400/3750
+Batch: 800/3750
+Batch: 1200/3750
+Batch: 1600/3750
+Batch: 2000/3750
+Batch: 2400/3750
+Batch: 2800/3750
+Batch: 3200/3750
+Batch: 3600/3750
+Per batch -> Train Loss: 0.9031803011894226 | Train Accuracy: 68.91%
+-Testing...
+Batch: 0/625
+Batch: 50/625
+Batch: 100/625
+Batch: 150/625
+Batch: 200/625
+Batch: 250/625
+Batch: 300/625
+Batch: 350/625
+Batch: 400/625
+Batch: 450/625
+Batch: 500/625
+Batch: 550/625
+Batch: 600/625
+Per batch -> Test Loss: 0.9112545847892761 | Test Accuracy: 69.17%
+--------Epoch: 4
+-Training...
+Batch: 0/3750
+Batch: 400/3750
+Batch: 800/3750
+Batch: 1200/3750
+Batch: 1600/3750
+Batch: 2000/3750
+Batch: 2400/3750
+Batch: 2800/3750
+Batch: 3200/3750
+Batch: 3600/3750
+Per batch -> Train Loss: 0.8452671766281128 | Train Accuracy: 70.75%
+-Testing...
+Batch: 0/625
+Batch: 50/625
+Batch: 100/625
+Batch: 150/625
+Batch: 200/625
+Batch: 250/625
+Batch: 300/625
+Batch: 350/625
+Batch: 400/625
+Batch: 450/625
+Batch: 500/625
+Batch: 550/625
+Batch: 600/625
+Per batch -> Test Loss: 0.8502680659294128 | Test Accuracy: 70.95%
+------ Final Results ------
+Model: 0.8499691486358643 | Loss: ModelCNN | Accuracy: 71.23

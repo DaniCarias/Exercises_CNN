@@ -1,0 +1,17 @@
+Dataset: ./data/cats_dogs_full/train and ./data/cats_dogs_full/test
+Train dataloader: 624 batches
+Test dataloader: 157 batches
+--------Epoch: 0
+-Training...
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 159, in <module>
+    train_loss, train_acc = train_model(model, train_dataloader, loss_fn, optimizer)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 71, in train_model
+    print(f"Train Pred: {train_pred.squeze(0).shape} | y: {y.shape}")
+AttributeError: 'Tensor' object has no attribute 'squeze'
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 159, in <module>
+    train_loss, train_acc = train_model(model, train_dataloader, loss_fn, optimizer)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 71, in train_model
+    print(f"Train Pred: {train_pred.squeze(0).shape} | y: {y.shape}")
+AttributeError: 'Tensor' object has no attribute 'squeze'. Did you mean: 'squeeze'?

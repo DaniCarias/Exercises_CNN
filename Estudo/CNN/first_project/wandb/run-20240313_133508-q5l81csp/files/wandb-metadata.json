@@ -1,0 +1,102 @@
+{
+    "os": "Linux-6.6.10-76060610-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2024-03-13T13:35:09.756544",
+    "startedAt": "2024-03-13T13:35:08.922182",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py",
+    "codePathLocal": "CNN.py",
+    "codePath": "CNN.py",
+    "host": "pop-os",
+    "username": "danielcarias",
+    "executable": "/usr/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 1994.686333333333,
+        "min": 1400.0,
+        "max": 3000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3874.185,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 2162.614,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3394.718,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 2781.45,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3977.583,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3990.597,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3824.534,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1525.459,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1714.216,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1747.007,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1306.004,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1312.33,
+            "min": 1400.0,
+            "max": 3000.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 459.5223274230957,
+            "used": 119.85847473144531
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1650",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1650",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 14.997817993164062
+    }
+}

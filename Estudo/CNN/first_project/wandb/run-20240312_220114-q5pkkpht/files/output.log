@@ -1,0 +1,89 @@
+Image size: <built-in method size of Tensor object at 0x74df56858f90>
+Labels: 10
+--------Epoch: 0
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 1.0055034160614014 | Train Accuracy: 62.21%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.4436720013618469 | Test Accuracy: 84.86%
+--------Epoch: 1
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.3658999502658844 | Train Accuracy: 86.67%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.36050355434417725 | Test Accuracy: 86.88%
+--------Epoch: 2
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.3235832452774048 | Train Accuracy: 88.44%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.33108794689178467 | Test Accuracy: 87.89%
+--------Epoch: 3
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.30456268787384033 | Train Accuracy: 88.93%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.3751816153526306 | Test Accuracy: 86.46%
+--------Epoch: 4
+-Training...
+Batch: 0/1875
+Batch: 400/1875
+Batch: 800/1875
+Batch: 1200/1875
+Batch: 1600/1875
+Per batch -> Train Loss: 0.2942642867565155 | Train Accuracy: 89.22%
+-Testing...
+Batch: 0/313
+Batch: 50/313
+Batch: 100/313
+Batch: 150/313
+Batch: 200/313
+Batch: 250/313
+Batch: 300/313
+Per batch -> Test Loss: 0.32521650195121765 | Test Accuracy: 88.42%
+------ Final Results ------
+Model: 0.32444024085998535 | Loss: ModelCNN | Accuracy: 88.45846645367412

@@ -1,0 +1,493 @@
+2024-03-13 12:34:23,145 INFO    StreamThr :19134 [internal.py:wandb_internal():86] W&B internal server running at pid: 19134, started at: 2024-03-13 12:34:23.145147
+2024-03-13 12:34:23,146 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status
+2024-03-13 12:34:23,148 INFO    WriterThread:19134 [datastore.py:open_for_write():87] open: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/run-fdaz8sbc.wandb
+2024-03-13 12:34:23,149 DEBUG   SenderThread:19134 [sender.py:send():378] send: header
+2024-03-13 12:34:23,149 DEBUG   SenderThread:19134 [sender.py:send():378] send: run
+2024-03-13 12:34:23,871 INFO    SenderThread:19134 [dir_watcher.py:__init__():211] watching files in: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files
+2024-03-13 12:34:23,871 INFO    SenderThread:19134 [sender.py:_start_run_threads():1099] run started: fdaz8sbc with start time 1710333263.145783
+2024-03-13 12:34:23,875 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: check_version
+2024-03-13 12:34:23,875 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: check_version
+2024-03-13 12:34:24,073 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: run_start
+2024-03-13 12:34:24,100 DEBUG   HandlerThread:19134 [system_info.py:__init__():26] System info init
+2024-03-13 12:34:24,100 DEBUG   HandlerThread:19134 [system_info.py:__init__():41] System info init done
+2024-03-13 12:34:24,100 INFO    HandlerThread:19134 [system_monitor.py:start():194] Starting system monitor
+2024-03-13 12:34:24,100 INFO    SystemMonitor:19134 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-13 12:34:24,100 INFO    HandlerThread:19134 [system_monitor.py:probe():214] Collecting system info
+2024-03-13 12:34:24,101 INFO    SystemMonitor:19134 [interfaces.py:start():190] Started cpu monitoring
+2024-03-13 12:34:24,102 INFO    SystemMonitor:19134 [interfaces.py:start():190] Started disk monitoring
+2024-03-13 12:34:24,103 INFO    SystemMonitor:19134 [interfaces.py:start():190] Started gpu monitoring
+2024-03-13 12:34:24,104 INFO    SystemMonitor:19134 [interfaces.py:start():190] Started memory monitoring
+2024-03-13 12:34:24,104 INFO    SystemMonitor:19134 [interfaces.py:start():190] Started network monitoring
+2024-03-13 12:34:24,110 DEBUG   HandlerThread:19134 [system_info.py:probe():150] Probing system
+2024-03-13 12:34:24,112 DEBUG   HandlerThread:19134 [gitlib.py:_init_repo():56] git repository is invalid
+2024-03-13 12:34:24,112 DEBUG   HandlerThread:19134 [system_info.py:probe():198] Probing system done
+2024-03-13 12:34:24,112 DEBUG   HandlerThread:19134 [system_monitor.py:probe():223] {'os': 'Linux-6.6.10-76060610-generic-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2024-03-13T12:34:24.110443', 'startedAt': '2024-03-13T12:34:23.139977', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py', 'codePathLocal': 'CNN.py', 'codePath': 'CNN.py', 'host': 'pop-os', 'username': 'danielcarias', 'executable': '/usr/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2722.481583333333, 'min': 1400.0, 'max': 3000.0}, 'cpu_freq_per_core': [{'current': 3427.123, 'min': 1400.0, 'max': 3000.0}, {'current': 3946.332, 'min': 1400.0, 'max': 3000.0}, {'current': 3437.843, 'min': 1400.0, 'max': 3000.0}, {'current': 3969.498, 'min': 1400.0, 'max': 3000.0}, {'current': 3917.032, 'min': 1400.0, 'max': 3000.0}, {'current': 3781.974, 'min': 1400.0, 'max': 3000.0}, {'current': 2385.321, 'min': 1400.0, 'max': 3000.0}, {'current': 2206.886, 'min': 1400.0, 'max': 3000.0}, {'current': 1773.408, 'min': 1400.0, 'max': 3000.0}, {'current': 1752.872, 'min': 1400.0, 'max': 3000.0}, {'current': 3975.09, 'min': 1400.0, 'max': 3000.0}, {'current': 3988.922, 'min': 1400.0, 'max': 3000.0}], 'disk': {'/': {'total': 459.5223274230957, 'used': 119.75603485107422}}, 'gpu': 'NVIDIA GeForce GTX 1650', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650', 'memory_total': 4294967296}], 'memory': {'total': 14.997817993164062}}
+2024-03-13 12:34:24,112 INFO    HandlerThread:19134 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-13 12:34:24,112 INFO    HandlerThread:19134 [system_monitor.py:probe():227] Publishing system info
+2024-03-13 12:34:24,113 INFO    HandlerThread:19134 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-13 12:34:24,116 DEBUG   SenderThread:19134 [sender.py:send():378] send: files
+2024-03-13 12:34:24,117 INFO    SenderThread:19134 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2024-03-13 12:34:24,211 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-13 12:34:24,212 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:34:24,212 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: python_packages
+2024-03-13 12:34:24,213 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:34:24,214 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:34:24,621 DEBUG   SenderThread:19134 [sender.py:send():378] send: telemetry
+2024-03-13 12:34:24,873 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_created():271] file/dir created: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/requirements.txt
+2024-03-13 12:34:24,873 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_created():271] file/dir created: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/wandb-metadata.json
+2024-03-13 12:34:24,873 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_created():271] file/dir created: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:34:24,904 INFO    wandb-upload_0:19134 [upload_job.py:push():131] Uploaded file /tmp/tmpjqfwqep3wandb/1gtsx20p-wandb-metadata.json
+2024-03-13 12:34:26,872 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:34:28,776 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:34:33,775 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:34:38,776 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:34:39,212 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:34:39,212 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:34:39,212 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:34:44,464 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:34:49,465 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:34:52,878 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:34:54,212 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:34:54,212 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:34:54,213 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:34:54,487 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:34:54,878 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/config.yaml
+2024-03-13 12:34:59,794 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:35:02,880 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:35:04,817 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:35:06,882 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:35:08,883 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:35:09,212 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:35:09,212 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:35:09,214 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:35:10,462 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:35:12,884 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:35:14,884 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:35:15,084 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 12:35:15,086 DEBUG   SenderThread:19134 [sender.py:send():378] send: history
+2024-03-13 12:35:15,086 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 12:35:15,086 INFO    SenderThread:19134 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 12:35:15,885 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_created():271] file/dir created: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/wandb-summary.json
+2024-03-13 12:35:16,156 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:35:16,885 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:35:21,157 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:35:24,104 DEBUG   SystemMonitor:19134 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-13 12:35:24,105 DEBUG   SenderThread:19134 [sender.py:send():378] send: stats
+2024-03-13 12:35:24,212 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:35:24,212 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:35:24,214 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:35:26,440 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:35:31,440 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:35:36,441 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:35:39,212 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:35:39,212 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:35:39,254 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:35:41,890 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:35:42,242 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:35:46,892 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:35:47,326 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:35:52,327 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:35:54,106 DEBUG   SenderThread:19134 [sender.py:send():378] send: stats
+2024-03-13 12:35:54,212 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:35:54,212 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:35:54,214 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:35:55,894 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:35:58,042 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:35:59,895 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:36:01,896 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:36:03,079 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:36:03,387 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 12:36:03,389 DEBUG   SenderThread:19134 [sender.py:send():378] send: history
+2024-03-13 12:36:03,389 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 12:36:03,389 INFO    SenderThread:19134 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 12:36:03,896 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/wandb-summary.json
+2024-03-13 12:36:05,897 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:36:08,456 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:36:09,212 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:36:09,212 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:36:09,214 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:36:13,544 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:36:18,545 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:36:23,545 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:36:24,106 DEBUG   SenderThread:19134 [sender.py:send():378] send: stats
+2024-03-13 12:36:24,212 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:36:24,213 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:36:24,254 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:36:29,542 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:36:29,903 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:36:34,543 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:36:39,212 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:36:39,213 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:36:39,213 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:36:39,547 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:36:43,906 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:36:44,567 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:36:47,907 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:36:49,907 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:36:50,541 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:36:51,856 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 12:36:51,858 DEBUG   SenderThread:19134 [sender.py:send():378] send: history
+2024-03-13 12:36:51,858 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 12:36:51,858 INFO    SenderThread:19134 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 12:36:51,908 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/wandb-summary.json
+2024-03-13 12:36:53,909 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:36:54,107 DEBUG   SenderThread:19134 [sender.py:send():378] send: stats
+2024-03-13 12:36:54,212 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:36:54,213 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:36:54,214 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:36:56,497 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:37:01,498 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:37:06,499 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:37:09,213 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:37:09,213 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:37:09,258 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:37:11,550 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:37:16,550 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:37:17,915 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:37:21,838 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:37:24,107 DEBUG   SenderThread:19134 [sender.py:send():378] send: stats
+2024-03-13 12:37:24,213 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:37:24,213 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:37:24,214 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:37:27,500 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:37:31,919 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:37:32,981 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:37:35,920 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:37:37,920 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:37:38,770 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:37:39,213 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:37:39,213 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:37:39,214 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:37:40,012 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 12:37:40,013 DEBUG   SenderThread:19134 [sender.py:send():378] send: history
+2024-03-13 12:37:40,013 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 12:37:40,014 INFO    SenderThread:19134 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 12:37:40,921 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/wandb-summary.json
+2024-03-13 12:37:41,921 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:37:44,082 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:37:49,082 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:37:54,083 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:37:54,108 DEBUG   SenderThread:19134 [sender.py:send():378] send: stats
+2024-03-13 12:37:54,213 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:37:54,213 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:37:54,214 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:37:59,491 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:38:04,491 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:38:05,927 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:38:09,213 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:38:09,213 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:38:09,215 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:38:10,379 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:38:15,379 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:38:21,146 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:38:21,931 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:38:23,931 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:38:24,109 DEBUG   SenderThread:19134 [sender.py:send():378] send: stats
+2024-03-13 12:38:24,213 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:38:24,213 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:38:24,215 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:38:26,170 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:38:27,932 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:38:29,374 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 12:38:29,375 DEBUG   SenderThread:19134 [sender.py:send():378] send: history
+2024-03-13 12:38:29,375 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 12:38:29,376 INFO    SenderThread:19134 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 12:38:29,933 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:38:29,933 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/wandb-summary.json
+2024-03-13 12:38:31,447 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:38:36,447 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:38:39,213 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:38:39,213 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:38:39,215 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:38:41,564 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:38:46,564 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:38:51,565 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:38:54,109 DEBUG   SenderThread:19134 [sender.py:send():378] send: stats
+2024-03-13 12:38:54,213 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:38:54,214 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:38:54,254 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:38:55,940 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:38:57,462 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:39:02,463 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:39:07,463 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:39:09,213 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:39:09,214 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:39:09,215 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:39:09,944 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:39:13,062 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:39:13,945 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:39:15,945 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:39:18,184 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:39:18,189 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 12:39:18,190 DEBUG   SenderThread:19134 [sender.py:send():378] send: history
+2024-03-13 12:39:18,190 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 12:39:18,190 INFO    SenderThread:19134 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 12:39:18,946 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/wandb-summary.json
+2024-03-13 12:39:19,946 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:39:23,257 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:39:24,110 DEBUG   SenderThread:19134 [sender.py:send():378] send: stats
+2024-03-13 12:39:24,213 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:39:24,214 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:39:24,215 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:39:28,513 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:39:33,514 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:39:38,515 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:39:39,214 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:39:39,214 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:39:39,254 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:39:44,030 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:39:44,952 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:39:49,031 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:39:54,031 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:39:54,110 DEBUG   SenderThread:19134 [sender.py:send():378] send: stats
+2024-03-13 12:39:54,214 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:39:54,214 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:39:54,214 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:39:58,955 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:39:59,414 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:40:00,956 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:40:04,957 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:40:05,200 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:40:05,504 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 12:40:05,505 DEBUG   SenderThread:19134 [sender.py:send():378] send: history
+2024-03-13 12:40:05,505 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 12:40:05,505 INFO    SenderThread:19134 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 12:40:05,957 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/wandb-summary.json
+2024-03-13 12:40:06,957 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:40:09,214 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:40:09,214 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:40:09,215 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:40:10,467 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:40:15,468 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:40:20,468 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:40:24,111 DEBUG   SenderThread:19134 [sender.py:send():378] send: stats
+2024-03-13 12:40:24,214 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:40:24,214 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:40:24,258 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:40:25,520 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:40:31,382 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:40:32,963 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:40:36,383 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:40:39,214 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:40:39,214 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:40:39,215 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:40:41,573 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:40:44,967 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:40:47,566 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:40:48,967 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:40:50,968 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:40:52,589 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:40:52,970 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 12:40:52,971 DEBUG   SenderThread:19134 [sender.py:send():378] send: history
+2024-03-13 12:40:52,971 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 12:40:52,971 INFO    SenderThread:19134 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 12:40:53,969 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/wandb-summary.json
+2024-03-13 12:40:54,113 DEBUG   SenderThread:19134 [sender.py:send():378] send: stats
+2024-03-13 12:40:54,214 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:40:54,214 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:40:54,216 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:40:54,969 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:40:58,451 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:41:03,452 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:41:08,453 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:41:09,214 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:41:09,214 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:41:09,258 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:41:14,388 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:41:19,578 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:41:20,976 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:41:24,112 DEBUG   SenderThread:19134 [sender.py:send():378] send: stats
+2024-03-13 12:41:24,214 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:41:24,214 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:41:24,216 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:41:25,423 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:41:30,424 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:41:34,979 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:41:35,499 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:41:36,979 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:41:39,214 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:41:39,215 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:41:39,216 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:41:40,583 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:41:40,981 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:41:41,896 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 12:41:41,897 DEBUG   SenderThread:19134 [sender.py:send():378] send: history
+2024-03-13 12:41:41,897 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 12:41:41,898 INFO    SenderThread:19134 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 12:41:41,981 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/wandb-summary.json
+2024-03-13 12:41:42,981 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:41:45,962 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:41:50,962 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:41:54,112 DEBUG   SenderThread:19134 [sender.py:send():378] send: stats
+2024-03-13 12:41:54,214 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:41:54,215 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:41:54,216 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:41:56,428 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:42:01,428 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:42:06,429 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:42:08,987 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:42:09,214 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:42:09,215 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:42:09,216 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:42:12,375 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:42:17,376 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:42:22,990 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:42:23,265 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:42:24,113 DEBUG   SenderThread:19134 [sender.py:send():378] send: stats
+2024-03-13 12:42:24,214 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:42:24,215 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:42:24,217 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:42:24,990 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:42:28,508 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:42:28,992 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:42:30,784 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 12:42:30,785 DEBUG   SenderThread:19134 [sender.py:send():378] send: history
+2024-03-13 12:42:30,786 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 12:42:30,786 INFO    SenderThread:19134 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 12:42:30,992 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:42:30,992 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/wandb-summary.json
+2024-03-13 12:42:32,993 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:42:33,853 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:42:38,853 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:42:39,215 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 12:42:39,215 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 12:42:39,216 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:42:39,704 DEBUG   SenderThread:19134 [sender.py:send():378] send: exit
+2024-03-13 12:42:39,704 INFO    SenderThread:19134 [sender.py:send_exit():585] handling exit code: 255
+2024-03-13 12:42:39,704 INFO    SenderThread:19134 [sender.py:send_exit():587] handling runtime: 495
+2024-03-13 12:42:39,705 INFO    SenderThread:19134 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 12:42:39,705 INFO    SenderThread:19134 [sender.py:send_exit():593] send defer
+2024-03-13 12:42:39,705 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: defer
+2024-03-13 12:42:39,705 INFO    HandlerThread:19134 [handler.py:handle_request_defer():172] handle defer: 0
+2024-03-13 12:42:39,705 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: defer
+2024-03-13 12:42:39,705 INFO    SenderThread:19134 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-03-13 12:42:39,705 INFO    SenderThread:19134 [sender.py:transition_state():613] send defer: 1
+2024-03-13 12:42:39,705 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: defer
+2024-03-13 12:42:39,705 INFO    HandlerThread:19134 [handler.py:handle_request_defer():172] handle defer: 1
+2024-03-13 12:42:39,705 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: defer
+2024-03-13 12:42:39,705 INFO    SenderThread:19134 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-03-13 12:42:39,705 INFO    SenderThread:19134 [sender.py:transition_state():613] send defer: 2
+2024-03-13 12:42:39,706 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: defer
+2024-03-13 12:42:39,706 INFO    HandlerThread:19134 [handler.py:handle_request_defer():172] handle defer: 2
+2024-03-13 12:42:39,706 INFO    HandlerThread:19134 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-13 12:42:39,706 DEBUG   SystemMonitor:19134 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-13 12:42:39,706 INFO    HandlerThread:19134 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-13 12:42:39,706 DEBUG   SystemMonitor:19134 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-13 12:42:39,706 INFO    HandlerThread:19134 [interfaces.py:finish():202] Joined disk monitor
+2024-03-13 12:42:39,782 INFO    HandlerThread:19134 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-13 12:42:39,782 INFO    HandlerThread:19134 [interfaces.py:finish():202] Joined memory monitor
+2024-03-13 12:42:39,782 INFO    HandlerThread:19134 [interfaces.py:finish():202] Joined network monitor
+2024-03-13 12:42:39,783 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: defer
+2024-03-13 12:42:39,783 INFO    SenderThread:19134 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-03-13 12:42:39,783 INFO    SenderThread:19134 [sender.py:transition_state():613] send defer: 3
+2024-03-13 12:42:39,783 DEBUG   SenderThread:19134 [sender.py:send():378] send: stats
+2024-03-13 12:42:39,784 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: defer
+2024-03-13 12:42:39,784 INFO    HandlerThread:19134 [handler.py:handle_request_defer():172] handle defer: 3
+2024-03-13 12:42:39,784 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: defer
+2024-03-13 12:42:39,784 INFO    SenderThread:19134 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-03-13 12:42:39,784 INFO    SenderThread:19134 [sender.py:transition_state():613] send defer: 4
+2024-03-13 12:42:39,784 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: defer
+2024-03-13 12:42:39,784 INFO    HandlerThread:19134 [handler.py:handle_request_defer():172] handle defer: 4
+2024-03-13 12:42:39,785 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: defer
+2024-03-13 12:42:39,785 INFO    SenderThread:19134 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-03-13 12:42:39,785 INFO    SenderThread:19134 [sender.py:transition_state():613] send defer: 5
+2024-03-13 12:42:39,785 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: defer
+2024-03-13 12:42:39,785 INFO    HandlerThread:19134 [handler.py:handle_request_defer():172] handle defer: 5
+2024-03-13 12:42:39,786 DEBUG   SenderThread:19134 [sender.py:send():378] send: summary
+2024-03-13 12:42:39,786 INFO    SenderThread:19134 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 12:42:39,786 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: defer
+2024-03-13 12:42:39,786 INFO    SenderThread:19134 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-03-13 12:42:39,786 INFO    SenderThread:19134 [sender.py:transition_state():613] send defer: 6
+2024-03-13 12:42:39,786 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: defer
+2024-03-13 12:42:39,786 INFO    HandlerThread:19134 [handler.py:handle_request_defer():172] handle defer: 6
+2024-03-13 12:42:39,786 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: defer
+2024-03-13 12:42:39,786 INFO    SenderThread:19134 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-03-13 12:42:39,786 INFO    SenderThread:19134 [sender.py:transition_state():613] send defer: 7
+2024-03-13 12:42:39,787 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 12:42:39,787 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: defer
+2024-03-13 12:42:39,787 INFO    HandlerThread:19134 [handler.py:handle_request_defer():172] handle defer: 7
+2024-03-13 12:42:39,787 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: defer
+2024-03-13 12:42:39,787 INFO    SenderThread:19134 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-03-13 12:42:39,996 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/wandb-summary.json
+2024-03-13 12:42:40,700 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-13 12:42:40,996 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:42:42,326 INFO    SenderThread:19134 [sender.py:transition_state():613] send defer: 8
+2024-03-13 12:42:42,327 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: poll_exit
+2024-03-13 12:42:42,327 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: defer
+2024-03-13 12:42:42,327 INFO    HandlerThread:19134 [handler.py:handle_request_defer():172] handle defer: 8
+2024-03-13 12:42:42,327 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: defer
+2024-03-13 12:42:42,327 INFO    SenderThread:19134 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-03-13 12:42:42,327 INFO    SenderThread:19134 [job_builder.py:build():298] Attempting to build job artifact
+2024-03-13 12:42:42,327 INFO    SenderThread:19134 [job_builder.py:_get_source_type():439] no source found
+2024-03-13 12:42:42,327 INFO    SenderThread:19134 [sender.py:transition_state():613] send defer: 9
+2024-03-13 12:42:42,328 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: defer
+2024-03-13 12:42:42,328 INFO    HandlerThread:19134 [handler.py:handle_request_defer():172] handle defer: 9
+2024-03-13 12:42:42,328 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: defer
+2024-03-13 12:42:42,328 INFO    SenderThread:19134 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-03-13 12:42:42,328 INFO    SenderThread:19134 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-13 12:42:42,701 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-13 12:42:42,997 INFO    Thread-12 :19134 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:42:42,998 INFO    SenderThread:19134 [dir_watcher.py:finish():388] scan: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files
+2024-03-13 12:42:42,998 INFO    SenderThread:19134 [dir_watcher.py:finish():402] scan save: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/requirements.txt requirements.txt
+2024-03-13 12:42:42,998 INFO    SenderThread:19134 [dir_watcher.py:finish():402] scan save: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/wandb-metadata.json wandb-metadata.json
+2024-03-13 12:42:42,998 INFO    SenderThread:19134 [dir_watcher.py:finish():402] scan save: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log output.log
+2024-03-13 12:42:42,998 INFO    SenderThread:19134 [dir_watcher.py:finish():402] scan save: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/config.yaml config.yaml
+2024-03-13 12:42:42,998 INFO    SenderThread:19134 [dir_watcher.py:finish():402] scan save: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/wandb-summary.json wandb-summary.json
+2024-03-13 12:42:42,998 INFO    SenderThread:19134 [sender.py:transition_state():613] send defer: 10
+2024-03-13 12:42:43,000 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: poll_exit
+2024-03-13 12:42:43,000 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: defer
+2024-03-13 12:42:43,007 INFO    HandlerThread:19134 [handler.py:handle_request_defer():172] handle defer: 10
+2024-03-13 12:42:43,009 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: defer
+2024-03-13 12:42:43,009 INFO    SenderThread:19134 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-03-13 12:42:43,009 INFO    SenderThread:19134 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-13 12:42:43,587 INFO    wandb-upload_1:19134 [upload_job.py:push():131] Uploaded file /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/requirements.txt
+2024-03-13 12:42:43,615 INFO    wandb-upload_2:19134 [upload_job.py:push():131] Uploaded file /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/output.log
+2024-03-13 12:42:43,646 INFO    wandb-upload_0:19134 [upload_job.py:push():131] Uploaded file /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/wandb-summary.json
+2024-03-13 12:42:43,669 INFO    wandb-upload_3:19134 [upload_job.py:push():131] Uploaded file /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/files/config.yaml
+2024-03-13 12:42:43,702 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-13 12:42:43,702 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: poll_exit
+2024-03-13 12:42:43,869 INFO    Thread-11 (_thread_body):19134 [sender.py:transition_state():613] send defer: 11
+2024-03-13 12:42:43,870 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: defer
+2024-03-13 12:42:43,870 INFO    HandlerThread:19134 [handler.py:handle_request_defer():172] handle defer: 11
+2024-03-13 12:42:43,870 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: defer
+2024-03-13 12:42:43,870 INFO    SenderThread:19134 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-03-13 12:42:43,870 INFO    SenderThread:19134 [file_pusher.py:join():178] waiting for file pusher
+2024-03-13 12:42:43,870 INFO    SenderThread:19134 [sender.py:transition_state():613] send defer: 12
+2024-03-13 12:42:43,871 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: defer
+2024-03-13 12:42:43,871 INFO    HandlerThread:19134 [handler.py:handle_request_defer():172] handle defer: 12
+2024-03-13 12:42:43,871 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: defer
+2024-03-13 12:42:43,871 INFO    SenderThread:19134 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-03-13 12:42:43,871 INFO    SenderThread:19134 [file_stream.py:finish():595] file stream finish called
+2024-03-13 12:42:44,393 INFO    SenderThread:19134 [file_stream.py:finish():599] file stream finish is done
+2024-03-13 12:42:44,393 INFO    SenderThread:19134 [sender.py:transition_state():613] send defer: 13
+2024-03-13 12:42:44,394 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: defer
+2024-03-13 12:42:44,394 INFO    HandlerThread:19134 [handler.py:handle_request_defer():172] handle defer: 13
+2024-03-13 12:42:44,394 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: defer
+2024-03-13 12:42:44,394 INFO    SenderThread:19134 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-03-13 12:42:44,394 INFO    SenderThread:19134 [sender.py:transition_state():613] send defer: 14
+2024-03-13 12:42:44,394 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: defer
+2024-03-13 12:42:44,395 INFO    HandlerThread:19134 [handler.py:handle_request_defer():172] handle defer: 14
+2024-03-13 12:42:44,395 DEBUG   SenderThread:19134 [sender.py:send():378] send: final
+2024-03-13 12:42:44,395 DEBUG   SenderThread:19134 [sender.py:send():378] send: footer
+2024-03-13 12:42:44,395 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: defer
+2024-03-13 12:42:44,395 INFO    SenderThread:19134 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-03-13 12:42:44,396 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-13 12:42:44,396 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: poll_exit
+2024-03-13 12:42:44,396 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-13 12:42:44,396 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: poll_exit
+2024-03-13 12:42:44,397 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: server_info
+2024-03-13 12:42:44,397 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: server_info
+2024-03-13 12:42:44,400 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: get_summary
+2024-03-13 12:42:44,400 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: sampled_history
+2024-03-13 12:42:44,401 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 12:42:44,401 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: job_info
+2024-03-13 12:42:44,643 DEBUG   SenderThread:19134 [sender.py:send_request():405] send_request: job_info
+2024-03-13 12:42:44,643 INFO    MainThread:19134 [wandb_run.py:_footer_history_summary_info():3851] rendering history
+2024-03-13 12:42:44,644 INFO    MainThread:19134 [wandb_run.py:_footer_history_summary_info():3883] rendering summary
+2024-03-13 12:42:44,644 INFO    MainThread:19134 [wandb_run.py:_footer_sync_info():3810] logging synced files
+2024-03-13 12:42:44,644 DEBUG   HandlerThread:19134 [handler.py:handle_request():146] handle_request: shutdown
+2024-03-13 12:42:44,644 INFO    HandlerThread:19134 [handler.py:finish():869] shutting down handler
+2024-03-13 12:42:45,402 INFO    WriterThread:19134 [datastore.py:close():296] close: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_123423-fdaz8sbc/run-fdaz8sbc.wandb
+2024-03-13 12:42:45,643 INFO    SenderThread:19134 [sender.py:finish():1521] shutting down sender
+2024-03-13 12:42:45,643 INFO    SenderThread:19134 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-13 12:42:45,643 INFO    SenderThread:19134 [file_pusher.py:join():178] waiting for file pusher

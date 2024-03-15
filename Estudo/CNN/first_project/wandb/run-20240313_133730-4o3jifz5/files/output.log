@@ -1,0 +1,43 @@
+Dataset: ./data/cats_dogs_full/train and ./data/cats_dogs_full/test
+Train dataloader: 624 batches
+Test dataloader: 157 batches
+--------Epoch: 0
+-Training...
+Batch: 0/624
+/home/danielcarias/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Batch: 400/624
+Per batch -> Train Loss: 0.691927433013916 | Train Accuracy: 51.89%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 157, in <module>
+    test_loss, test_acc = test_model(model, test_dataloader, loss_fn)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 99, in test_model
+    test_loss += loss_fn(y_test_logit.view(-1), y.float().view(-1))
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/nn/modules/loss.py", line 725, in forward
+    return F.binary_cross_entropy_with_logits(input, target,
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/nn/functional.py", line 3197, in binary_cross_entropy_with_logits
+    raise ValueError(f"Target size ({target.size()}) must be the same as input size ({input.size()})")
+ValueError: Target size (torch.Size([1])) must be the same as input size (torch.Size([]))
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 157, in <module>
+    test_loss, test_acc = test_model(model, test_dataloader, loss_fn)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 99, in test_model
+    test_loss += loss_fn(y_test_logit.view(-1), y.float().view(-1))
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/nn/modules/loss.py", line 725, in forward
+    return F.binary_cross_entropy_with_logits(input, target,
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/nn/functional.py", line 3197, in binary_cross_entropy_with_logits
+    raise ValueError(f"Target size ({target.size()}) must be the same as input size ({input.size()})")
+ValueError: Target size (torch.Size([1])) must be the same as input size (torch.Size([]))

@@ -1,0 +1,23 @@
+Dataset: ./data/cats_dogs_full/train and ./data/cats_dogs_full/test
+Train dataloader: 624 batches
+Test dataloader: 157 batches
+--------Epoch: 0
+-Training...
+Batch: 0/624
+/home/danielcarias/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Batch: 400/624
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 157, in <module>
+    test_loss, test_acc = test_model(model, test_dataloader, loss_fn)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 100, in test_model
+    test_acc += accuracy_fn(y, test_pred.argmax(dim=1))
+IndexError: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 157, in <module>
+    test_loss, test_acc = test_model(model, test_dataloader, loss_fn)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 100, in test_model
+    test_acc += accuracy_fn(y, test_pred.argmax(dim=1))
+IndexError: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+Per batch -> Train Loss: 0.6921790242195129 | Train Accuracy: 0.00%
+-Testing...

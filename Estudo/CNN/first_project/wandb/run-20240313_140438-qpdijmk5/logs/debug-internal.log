@@ -1,0 +1,1095 @@
+2024-03-13 14:04:38,512 INFO    StreamThr :41278 [internal.py:wandb_internal():86] W&B internal server running at pid: 41278, started at: 2024-03-13 14:04:38.511634
+2024-03-13 14:04:38,513 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status
+2024-03-13 14:04:38,515 INFO    WriterThread:41278 [datastore.py:open_for_write():87] open: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/run-qpdijmk5.wandb
+2024-03-13 14:04:38,515 DEBUG   SenderThread:41278 [sender.py:send():378] send: header
+2024-03-13 14:04:38,515 DEBUG   SenderThread:41278 [sender.py:send():378] send: run
+2024-03-13 14:04:39,123 INFO    SenderThread:41278 [dir_watcher.py:__init__():211] watching files in: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files
+2024-03-13 14:04:39,124 INFO    SenderThread:41278 [sender.py:_start_run_threads():1099] run started: qpdijmk5 with start time 1710338678.511832
+2024-03-13 14:04:39,127 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: check_version
+2024-03-13 14:04:39,128 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: check_version
+2024-03-13 14:04:39,229 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: run_start
+2024-03-13 14:04:39,253 DEBUG   HandlerThread:41278 [system_info.py:__init__():26] System info init
+2024-03-13 14:04:39,253 DEBUG   HandlerThread:41278 [system_info.py:__init__():41] System info init done
+2024-03-13 14:04:39,253 INFO    HandlerThread:41278 [system_monitor.py:start():194] Starting system monitor
+2024-03-13 14:04:39,253 INFO    SystemMonitor:41278 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-13 14:04:39,253 INFO    HandlerThread:41278 [system_monitor.py:probe():214] Collecting system info
+2024-03-13 14:04:39,254 INFO    SystemMonitor:41278 [interfaces.py:start():190] Started cpu monitoring
+2024-03-13 14:04:39,255 INFO    SystemMonitor:41278 [interfaces.py:start():190] Started disk monitoring
+2024-03-13 14:04:39,256 INFO    SystemMonitor:41278 [interfaces.py:start():190] Started gpu monitoring
+2024-03-13 14:04:39,257 INFO    SystemMonitor:41278 [interfaces.py:start():190] Started memory monitoring
+2024-03-13 14:04:39,258 INFO    SystemMonitor:41278 [interfaces.py:start():190] Started network monitoring
+2024-03-13 14:04:39,264 DEBUG   HandlerThread:41278 [system_info.py:probe():150] Probing system
+2024-03-13 14:04:39,266 DEBUG   HandlerThread:41278 [gitlib.py:_init_repo():56] git repository is invalid
+2024-03-13 14:04:39,266 DEBUG   HandlerThread:41278 [system_info.py:probe():198] Probing system done
+2024-03-13 14:04:39,266 DEBUG   HandlerThread:41278 [system_monitor.py:probe():223] {'os': 'Linux-6.6.10-76060610-generic-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2024-03-13T14:04:39.264590', 'startedAt': '2024-03-13T14:04:38.505280', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py', 'codePathLocal': 'CNN.py', 'codePath': 'CNN.py', 'host': 'pop-os', 'username': 'danielcarias', 'executable': '/usr/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 3617.514333333333, 'min': 1400.0, 'max': 3000.0}, 'cpu_freq_per_core': [{'current': 3957.361, 'min': 1400.0, 'max': 3000.0}, {'current': 3640.141, 'min': 1400.0, 'max': 3000.0}, {'current': 3994.724, 'min': 1400.0, 'max': 3000.0}, {'current': 3992.906, 'min': 1400.0, 'max': 3000.0}, {'current': 3991.917, 'min': 1400.0, 'max': 3000.0}, {'current': 3981.571, 'min': 1400.0, 'max': 3000.0}, {'current': 1772.942, 'min': 1400.0, 'max': 3000.0}, {'current': 1774.11, 'min': 1400.0, 'max': 3000.0}, {'current': 3982.345, 'min': 1400.0, 'max': 3000.0}, {'current': 3988.885, 'min': 1400.0, 'max': 3000.0}, {'current': 3992.381, 'min': 1400.0, 'max': 3000.0}, {'current': 3991.882, 'min': 1400.0, 'max': 3000.0}], 'disk': {'/': {'total': 459.5223274230957, 'used': 119.87351989746094}}, 'gpu': 'NVIDIA GeForce GTX 1650', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650', 'memory_total': 4294967296}], 'memory': {'total': 14.997817993164062}}
+2024-03-13 14:04:39,266 INFO    HandlerThread:41278 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-13 14:04:39,266 INFO    HandlerThread:41278 [system_monitor.py:probe():227] Publishing system info
+2024-03-13 14:04:39,267 INFO    HandlerThread:41278 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-13 14:04:39,271 DEBUG   SenderThread:41278 [sender.py:send():378] send: files
+2024-03-13 14:04:39,272 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2024-03-13 14:04:39,371 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-13 14:04:39,371 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: python_packages
+2024-03-13 14:04:39,371 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:04:39,372 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:04:39,373 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:04:39,696 DEBUG   SenderThread:41278 [sender.py:send():378] send: telemetry
+2024-03-13 14:04:40,038 INFO    wandb-upload_0:41278 [upload_job.py:push():131] Uploaded file /tmp/tmp1w13tg7jwandb/m4b513jr-wandb-metadata.json
+2024-03-13 14:04:40,125 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_created():271] file/dir created: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:04:40,125 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_created():271] file/dir created: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/requirements.txt
+2024-03-13 14:04:40,125 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_created():271] file/dir created: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-metadata.json
+2024-03-13 14:04:42,124 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:04:43,955 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:04:48,961 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:04:53,961 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:04:54,371 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:04:54,371 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:04:54,373 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:04:59,634 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:05:04,635 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:05:08,131 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:05:09,372 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:05:09,372 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:05:09,372 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:05:10,550 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:05:11,133 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/config.yaml
+2024-03-13 14:05:12,133 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:05:15,966 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:05:20,967 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:05:22,135 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:05:24,372 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:05:24,372 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:05:24,373 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:05:26,136 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:05:26,687 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:05:28,137 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:05:30,841 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 14:05:30,843 DEBUG   SenderThread:41278 [sender.py:send():378] send: history
+2024-03-13 14:05:30,844 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 14:05:30,846 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:05:31,139 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_created():271] file/dir created: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:05:31,916 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:05:32,138 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:05:36,917 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:05:39,258 DEBUG   SystemMonitor:41278 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-13 14:05:39,259 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:05:39,372 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:05:39,372 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:05:39,372 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:05:42,635 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:05:47,636 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:05:52,636 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:05:54,377 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:05:54,377 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:05:54,379 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:05:56,145 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:05:58,610 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:06:03,611 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:06:08,611 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:06:09,259 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:06:09,374 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:06:09,374 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:06:09,375 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:06:10,148 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:06:14,150 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:06:14,462 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:06:16,150 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:06:18,851 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 14:06:18,852 DEBUG   SenderThread:41278 [sender.py:send():378] send: history
+2024-03-13 14:06:18,852 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 14:06:18,852 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:06:19,151 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:06:19,915 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:06:20,151 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:06:24,374 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:06:24,375 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:06:24,375 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:06:25,691 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:06:30,691 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:06:35,692 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:06:39,260 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:06:39,374 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:06:39,375 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:06:39,375 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:06:41,642 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:06:45,158 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:06:47,618 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:06:52,619 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:06:54,375 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:06:54,375 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:06:54,375 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:06:58,356 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:06:59,161 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:07:03,162 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:07:04,188 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:07:05,163 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:07:06,372 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 14:07:06,373 DEBUG   SenderThread:41278 [sender.py:send():378] send: history
+2024-03-13 14:07:06,373 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 14:07:06,374 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:07:07,163 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:07:07,164 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:07:09,164 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:07:09,260 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:07:09,261 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:07:09,374 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:07:09,375 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:07:09,375 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:07:14,850 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:07:19,851 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:07:24,375 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:07:24,375 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:07:24,376 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:07:25,698 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:07:31,169 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:07:31,362 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:07:36,363 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:07:39,261 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:07:39,375 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:07:39,375 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:07:39,375 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:07:41,649 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:07:45,172 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:07:47,488 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:07:49,173 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:07:51,173 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:07:52,571 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:07:52,576 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 14:07:52,576 DEBUG   SenderThread:41278 [sender.py:send():378] send: history
+2024-03-13 14:07:52,577 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 14:07:52,577 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:07:53,174 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:07:53,174 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:07:54,375 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:07:54,375 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:07:54,376 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:07:55,174 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:07:57,630 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:08:02,630 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:08:07,631 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:08:09,261 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:08:09,375 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:08:09,375 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:08:09,376 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:08:12,652 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:08:18,010 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:08:19,180 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:08:23,011 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:08:24,375 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:08:24,376 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:08:24,376 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:08:28,603 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:08:31,183 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:08:34,355 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:08:35,184 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:08:37,184 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:08:39,262 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:08:39,375 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:08:39,376 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:08:39,376 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:08:39,376 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:08:39,594 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 14:08:39,655 DEBUG   SenderThread:41278 [sender.py:send():378] send: history
+2024-03-13 14:08:39,655 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 14:08:39,655 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:08:40,185 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:08:41,185 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:08:44,656 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:08:49,657 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:08:54,375 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:08:54,376 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:08:54,376 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:08:55,618 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:09:00,620 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:09:05,191 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:09:05,630 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:09:09,262 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:09:09,376 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:09:09,376 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:09:09,376 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:09:10,659 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:09:15,660 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:09:19,195 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:09:20,727 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:09:23,196 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:09:24,376 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:09:24,376 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:09:24,376 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:09:25,196 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:09:25,854 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:09:28,445 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 14:09:28,446 DEBUG   SenderThread:41278 [sender.py:send():378] send: history
+2024-03-13 14:09:28,446 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 14:09:28,447 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:09:29,197 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:09:29,198 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:09:31,528 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:09:36,529 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:09:39,263 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:09:39,376 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:09:39,376 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:09:39,376 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:09:41,661 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:09:46,662 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:09:51,663 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:09:54,376 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:09:54,376 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:09:54,377 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:09:55,204 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:09:57,612 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:10:02,613 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:10:07,613 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:10:09,208 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:10:09,263 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:10:09,376 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:10:09,377 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:10:09,377 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:10:11,208 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:10:12,979 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:10:15,210 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:10:17,427 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 14:10:17,428 DEBUG   SenderThread:41278 [sender.py:send():378] send: history
+2024-03-13 14:10:17,429 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 14:10:17,429 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:10:18,210 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:10:18,493 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:10:19,211 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:10:23,494 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:10:24,376 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:10:24,376 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:10:24,377 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:10:28,616 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:10:33,617 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:10:38,617 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:10:39,264 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:10:39,376 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:10:39,377 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:10:39,377 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:10:43,669 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:10:45,217 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:10:49,014 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:10:54,015 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:10:54,376 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:10:54,377 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:10:54,377 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:10:59,814 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:11:00,221 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:11:02,222 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:11:05,056 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:11:06,223 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:11:07,285 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 14:11:07,286 DEBUG   SenderThread:41278 [sender.py:send():378] send: history
+2024-03-13 14:11:07,286 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 14:11:07,286 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:11:08,223 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:11:08,223 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:11:09,264 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:11:09,376 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:11:09,377 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:11:09,377 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:11:10,224 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:11:10,517 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:11:15,518 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:11:20,518 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:11:24,376 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:11:24,377 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:11:24,377 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:11:25,623 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:11:30,623 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:11:34,229 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:11:36,097 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:11:39,265 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:11:39,377 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:11:39,377 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:11:39,377 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:11:41,526 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:11:47,169 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:11:48,233 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:11:50,234 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:11:52,268 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:11:54,235 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:11:54,377 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:11:54,377 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:11:54,377 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:11:55,629 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 14:11:55,629 DEBUG   SenderThread:41278 [sender.py:send():378] send: history
+2024-03-13 14:11:55,630 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 14:11:55,630 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:11:56,235 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:11:56,235 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:11:57,698 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:11:58,236 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:12:02,696 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:12:07,697 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:12:09,265 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:12:09,377 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:12:09,377 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:12:09,377 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:12:13,679 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:12:18,679 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:12:22,241 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:12:24,370 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:12:24,377 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:12:24,377 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:12:24,377 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:12:29,629 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:12:34,835 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:12:36,245 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:12:38,246 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:12:39,266 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:12:39,377 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:12:39,377 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:12:39,378 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:12:40,035 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:12:42,247 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:12:42,938 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 14:12:42,938 DEBUG   SenderThread:41278 [sender.py:send():378] send: history
+2024-03-13 14:12:42,939 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 14:12:42,939 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:12:43,247 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:12:44,247 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:12:46,014 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:12:51,015 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:12:54,377 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:12:54,377 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:12:54,378 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:12:56,633 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:13:01,634 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:13:06,634 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:13:08,253 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:13:09,266 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:13:09,377 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:13:09,378 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:13:09,378 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:13:12,555 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:13:17,556 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:13:22,256 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:13:23,058 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:13:24,377 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:13:24,377 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:13:24,378 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:13:26,257 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:13:28,257 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:13:28,974 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:13:30,213 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 14:13:30,214 DEBUG   SenderThread:41278 [sender.py:send():378] send: history
+2024-03-13 14:13:30,214 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 14:13:30,215 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:13:30,258 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:13:32,259 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:13:34,286 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:13:39,267 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:13:39,377 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:13:39,378 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:13:39,378 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:13:39,378 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:13:44,600 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:13:49,601 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:13:54,377 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:13:54,378 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:13:54,378 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:13:54,638 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:13:56,264 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:13:59,876 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:14:04,877 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:14:09,268 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:14:09,377 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:14:09,378 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:14:09,378 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:14:10,267 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:14:10,626 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:14:12,268 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:14:16,264 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:14:16,269 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:14:17,565 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 14:14:17,565 DEBUG   SenderThread:41278 [sender.py:send():378] send: history
+2024-03-13 14:14:17,566 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 14:14:17,566 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:14:18,269 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:14:18,269 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:14:21,633 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:14:24,378 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:14:24,378 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:14:24,378 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:14:26,642 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:14:31,643 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:14:36,643 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:14:39,268 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:14:39,378 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:14:39,378 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:14:39,378 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:14:42,048 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:14:42,275 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:14:47,049 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:14:52,050 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:14:54,378 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:14:54,378 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:14:54,378 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:14:56,278 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:14:57,630 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:15:01,279 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:15:03,280 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:15:03,492 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:15:04,714 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 14:15:04,715 DEBUG   SenderThread:41278 [sender.py:send():378] send: history
+2024-03-13 14:15:04,715 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 14:15:04,716 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:15:05,280 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:15:07,281 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:15:08,783 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:15:09,269 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:15:09,378 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:15:09,378 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:15:09,378 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:15:14,623 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:15:19,623 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:15:24,378 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:15:24,378 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:15:24,379 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:15:24,649 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:15:30,354 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:15:31,286 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:15:35,355 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:15:39,270 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:15:39,378 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:15:39,379 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:15:39,379 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:15:40,557 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:15:45,290 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:15:45,969 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:15:47,290 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:15:51,291 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:15:51,834 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:15:52,141 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 14:15:52,142 DEBUG   SenderThread:41278 [sender.py:send():378] send: history
+2024-03-13 14:15:52,142 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 14:15:52,143 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:15:52,294 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:15:53,292 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:15:54,378 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:15:54,379 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:15:54,379 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:15:57,653 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:16:02,654 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:16:07,654 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:16:09,270 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:16:09,379 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:16:09,379 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:16:09,379 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:16:13,560 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:16:17,297 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:16:19,538 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:16:24,378 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:16:24,379 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:16:24,379 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:16:24,553 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:16:29,554 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:16:31,302 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:16:35,225 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:16:35,303 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:16:37,304 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:16:39,271 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:16:39,379 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:16:39,379 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:16:39,379 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:16:39,443 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 14:16:39,695 DEBUG   SenderThread:41278 [sender.py:send():378] send: history
+2024-03-13 14:16:39,696 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 14:16:39,696 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:16:40,305 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:16:40,696 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:16:41,305 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:16:45,697 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:16:50,698 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:16:54,378 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:16:54,379 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:16:54,380 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:16:56,556 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:17:01,557 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:17:05,311 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:17:07,245 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:17:09,271 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:17:09,379 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:17:09,379 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:17:09,379 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:17:12,610 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:17:17,611 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:17:19,315 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:17:21,315 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:17:22,746 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:17:24,378 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:17:24,379 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:17:24,380 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:17:25,316 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:17:26,916 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 14:17:26,917 DEBUG   SenderThread:41278 [sender.py:send():378] send: history
+2024-03-13 14:17:26,917 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 14:17:26,917 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:17:27,317 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:17:27,317 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:17:27,990 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:17:29,317 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:17:32,990 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:17:37,991 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:17:39,272 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:17:39,379 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:17:39,380 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:17:39,380 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:17:43,716 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:17:48,717 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:17:53,323 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:17:54,379 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:17:54,379 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:17:54,380 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:17:54,380 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:17:59,564 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:18:04,565 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:18:05,326 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:18:07,327 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:18:09,272 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:18:09,327 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:18:09,379 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:18:09,380 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:18:09,380 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:18:09,568 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:18:11,328 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:18:14,274 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 14:18:14,275 DEBUG   SenderThread:41278 [sender.py:send():378] send: history
+2024-03-13 14:18:14,275 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 14:18:14,276 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:18:14,328 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:18:15,329 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:18:15,341 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:18:20,342 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:18:24,379 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:18:24,380 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:18:24,380 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:18:25,669 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:18:30,669 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:18:35,670 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:18:39,273 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:18:39,334 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:18:39,379 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:18:39,380 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:18:39,380 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:18:41,553 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:18:46,554 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:18:51,554 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:18:53,338 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:18:54,379 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:18:54,380 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:18:54,381 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:18:56,625 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:18:57,339 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:18:59,339 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:19:01,864 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:19:01,869 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 14:19:01,870 DEBUG   SenderThread:41278 [sender.py:send():378] send: history
+2024-03-13 14:19:01,871 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 14:19:01,871 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:19:02,340 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:19:03,340 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:19:06,940 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:19:09,273 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:19:09,379 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:19:09,380 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:19:09,380 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:19:12,624 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:19:17,624 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:19:22,625 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:19:24,379 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:19:24,380 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:19:24,380 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:19:27,866 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:19:28,347 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:19:32,866 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:19:37,867 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:19:39,274 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:19:39,379 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:19:39,380 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:19:39,380 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:19:42,350 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:19:43,632 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:19:46,351 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:19:48,352 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:19:48,699 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:19:49,994 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 14:19:49,996 DEBUG   SenderThread:41278 [sender.py:send():378] send: history
+2024-03-13 14:19:49,996 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 14:19:49,996 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:19:50,352 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:19:52,353 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:19:54,063 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:19:54,380 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:19:54,380 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:19:54,380 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:19:59,583 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:20:04,583 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:20:09,274 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:20:09,380 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:20:09,380 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:20:09,380 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:20:09,629 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:20:14,630 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:20:16,358 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:20:19,780 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:20:24,380 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:20:24,380 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:20:24,381 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:20:25,591 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:20:30,361 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:20:31,417 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:20:32,362 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:20:36,363 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:20:37,201 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:20:37,506 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 14:20:37,507 DEBUG   SenderThread:41278 [sender.py:send():378] send: history
+2024-03-13 14:20:37,507 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 14:20:37,508 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:20:38,363 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:20:38,364 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:20:39,275 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:20:39,380 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:20:39,380 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:20:39,381 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:20:40,364 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:20:42,633 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:20:47,634 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:20:52,634 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:20:54,380 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:20:54,381 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:20:54,381 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:20:57,686 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:21:03,489 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:21:04,370 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:21:08,490 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:21:09,275 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:21:09,380 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:21:09,381 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:21:09,381 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:21:13,637 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:21:18,373 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:21:19,114 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:21:20,374 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:21:24,153 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:21:24,375 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:21:24,380 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:21:24,381 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:21:24,381 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:21:25,491 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 14:21:25,492 DEBUG   SenderThread:41278 [sender.py:send():378] send: history
+2024-03-13 14:21:25,492 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 14:21:25,492 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:21:26,375 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:21:26,375 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:21:29,559 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:21:34,560 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:21:39,276 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:21:39,380 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:21:39,381 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:21:39,381 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:21:40,557 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:21:45,557 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:21:50,953 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:21:52,382 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:21:54,380 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:21:54,381 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:21:54,381 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:21:56,590 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:22:01,590 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:22:04,385 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:22:07,469 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:22:08,386 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:22:09,276 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:22:09,380 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:22:09,381 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:22:09,381 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:22:10,387 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:22:12,745 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:22:12,750 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 14:22:12,751 DEBUG   SenderThread:41278 [sender.py:send():378] send: history
+2024-03-13 14:22:12,751 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 14:22:12,752 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:22:13,387 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:22:14,388 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:22:17,825 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:22:22,826 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:22:24,380 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:22:24,382 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:22:24,382 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:22:28,590 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:22:33,591 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:22:38,393 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:22:39,277 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:22:39,277 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:22:39,380 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:22:39,381 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:22:39,382 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:22:44,646 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:22:49,647 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:22:52,396 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:22:54,381 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:22:54,381 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:22:54,382 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:22:55,596 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:22:56,398 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:22:58,398 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:23:00,399 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:23:00,462 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 14:23:00,463 DEBUG   SenderThread:41278 [sender.py:send():378] send: history
+2024-03-13 14:23:00,463 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 14:23:00,463 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:23:01,399 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:23:01,532 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:23:02,399 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:23:06,533 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:23:09,277 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:23:09,381 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:23:09,382 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:23:09,382 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:23:11,649 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:23:16,650 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:23:21,650 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:23:24,381 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:23:24,382 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:23:24,382 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:23:27,079 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:23:27,405 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:23:32,080 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:23:37,081 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:23:39,278 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:23:39,381 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:23:39,382 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:23:39,382 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:23:41,408 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:23:42,880 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:23:43,409 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:23:47,410 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:23:47,901 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:23:48,206 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 14:23:48,211 DEBUG   SenderThread:41278 [sender.py:send():378] send: history
+2024-03-13 14:23:48,211 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 14:23:48,211 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:23:48,410 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:23:49,410 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:23:53,274 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:23:54,381 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:23:54,382 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:23:54,382 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:23:58,707 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:24:03,707 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:24:08,708 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:24:09,278 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:24:09,381 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:24:09,382 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:24:09,382 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:24:13,728 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:24:15,416 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:24:18,728 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:24:23,729 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:24:24,381 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:24:24,382 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:24:24,382 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:24:27,419 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:24:29,257 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:24:31,420 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:24:33,421 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:24:35,169 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:24:35,476 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 14:24:35,477 DEBUG   SenderThread:41278 [sender.py:send():378] send: history
+2024-03-13 14:24:35,477 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 14:24:35,477 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:24:36,421 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:24:37,422 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:24:39,279 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:24:39,381 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:24:39,382 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:24:39,382 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:24:40,660 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:24:45,660 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:24:50,661 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:24:54,544 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:24:54,545 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:24:54,545 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:24:55,815 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:25:01,111 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:25:01,428 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:25:06,111 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:25:09,280 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:25:09,544 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:25:09,544 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:25:09,586 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:25:11,765 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:25:15,431 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:25:17,431 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:25:17,614 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:25:21,432 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:25:22,830 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:25:22,835 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 14:25:22,836 DEBUG   SenderThread:41278 [sender.py:send():378] send: history
+2024-03-13 14:25:22,836 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 14:25:22,836 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:25:23,433 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:25:23,433 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:25:24,544 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:25:24,545 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:25:24,545 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:25:25,433 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:25:28,817 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:25:33,818 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:25:38,819 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:25:39,280 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:25:39,544 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:25:39,545 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:25:39,590 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:25:44,769 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:25:49,439 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:25:50,682 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:25:54,544 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:25:54,545 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:25:54,590 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:25:55,822 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:26:00,822 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:26:03,443 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:26:05,443 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:26:06,135 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:26:09,281 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:26:09,444 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:26:09,545 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:26:09,545 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:26:09,545 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:26:10,350 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 14:26:10,351 DEBUG   SenderThread:41278 [sender.py:send():378] send: history
+2024-03-13 14:26:10,351 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 14:26:10,352 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:26:10,445 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:26:11,416 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:26:11,445 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:26:16,417 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:26:21,417 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:26:24,545 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:26:24,545 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:26:24,586 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:26:26,719 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:26:31,719 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:26:35,451 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:26:37,006 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:26:39,281 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:26:39,545 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:26:39,545 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:26:39,586 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:26:42,776 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:26:47,776 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:26:49,454 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:26:52,779 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:26:53,455 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:26:54,545 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:26:54,545 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:26:54,546 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:26:55,455 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:26:57,807 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:26:57,812 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 14:26:57,813 DEBUG   SenderThread:41278 [sender.py:send():378] send: history
+2024-03-13 14:26:57,813 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 14:26:57,814 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:26:58,456 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:26:59,456 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:27:02,880 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:27:07,880 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:27:09,282 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:27:09,545 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:27:09,545 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:27:09,586 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:27:12,881 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:27:17,882 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:27:23,238 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:27:23,461 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:27:24,545 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:27:24,545 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:27:24,586 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:27:28,832 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:27:33,832 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:27:38,465 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:27:39,282 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:27:39,283 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:27:39,545 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:27:39,546 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:27:39,592 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:27:40,466 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:27:44,467 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:27:44,746 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:27:45,053 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 14:27:45,054 DEBUG   SenderThread:41278 [sender.py:send():378] send: history
+2024-03-13 14:27:45,054 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 14:27:45,055 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:27:45,467 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:27:46,467 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:27:50,121 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:27:54,545 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:27:54,546 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:27:54,586 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:27:55,836 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:28:00,836 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:28:05,837 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:28:09,283 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:28:09,546 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:28:09,546 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:28:09,546 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:28:11,785 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:28:12,474 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:28:16,786 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:28:21,786 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:28:24,477 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:28:24,546 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:28:24,546 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:28:24,546 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:28:27,364 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:28:28,478 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:28:30,478 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:28:32,604 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:28:32,609 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-13 14:28:32,609 DEBUG   SenderThread:41278 [sender.py:send():378] send: history
+2024-03-13 14:28:32,610 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: summary_record
+2024-03-13 14:28:32,610 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:28:33,479 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:28:34,479 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:28:37,611 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:28:39,283 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:28:39,546 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:28:39,546 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-13 14:28:39,546 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: stop_status
+2024-03-13 14:28:42,114 DEBUG   SenderThread:41278 [sender.py:send():378] send: telemetry
+2024-03-13 14:28:42,114 DEBUG   SenderThread:41278 [sender.py:send():378] send: exit
+2024-03-13 14:28:42,114 INFO    SenderThread:41278 [sender.py:send_exit():585] handling exit code: 0
+2024-03-13 14:28:42,114 INFO    SenderThread:41278 [sender.py:send_exit():587] handling runtime: 1442
+2024-03-13 14:28:42,114 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:28:42,115 INFO    SenderThread:41278 [sender.py:send_exit():593] send defer
+2024-03-13 14:28:42,115 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: defer
+2024-03-13 14:28:42,115 INFO    HandlerThread:41278 [handler.py:handle_request_defer():172] handle defer: 0
+2024-03-13 14:28:42,115 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: defer
+2024-03-13 14:28:42,115 INFO    SenderThread:41278 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-03-13 14:28:42,115 INFO    SenderThread:41278 [sender.py:transition_state():613] send defer: 1
+2024-03-13 14:28:42,115 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: defer
+2024-03-13 14:28:42,115 INFO    HandlerThread:41278 [handler.py:handle_request_defer():172] handle defer: 1
+2024-03-13 14:28:42,115 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: defer
+2024-03-13 14:28:42,115 INFO    SenderThread:41278 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-03-13 14:28:42,115 INFO    SenderThread:41278 [sender.py:transition_state():613] send defer: 2
+2024-03-13 14:28:42,115 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: defer
+2024-03-13 14:28:42,115 INFO    HandlerThread:41278 [handler.py:handle_request_defer():172] handle defer: 2
+2024-03-13 14:28:42,115 INFO    HandlerThread:41278 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-13 14:28:42,115 DEBUG   SystemMonitor:41278 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-13 14:28:42,116 INFO    HandlerThread:41278 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-13 14:28:42,116 DEBUG   SystemMonitor:41278 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-13 14:28:42,116 INFO    HandlerThread:41278 [interfaces.py:finish():202] Joined disk monitor
+2024-03-13 14:28:42,170 INFO    HandlerThread:41278 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-13 14:28:42,170 INFO    HandlerThread:41278 [interfaces.py:finish():202] Joined memory monitor
+2024-03-13 14:28:42,170 INFO    HandlerThread:41278 [interfaces.py:finish():202] Joined network monitor
+2024-03-13 14:28:42,170 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: defer
+2024-03-13 14:28:42,171 INFO    SenderThread:41278 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-03-13 14:28:42,171 INFO    SenderThread:41278 [sender.py:transition_state():613] send defer: 3
+2024-03-13 14:28:42,171 DEBUG   SenderThread:41278 [sender.py:send():378] send: stats
+2024-03-13 14:28:42,171 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: defer
+2024-03-13 14:28:42,171 INFO    HandlerThread:41278 [handler.py:handle_request_defer():172] handle defer: 3
+2024-03-13 14:28:42,171 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: defer
+2024-03-13 14:28:42,171 INFO    SenderThread:41278 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-03-13 14:28:42,171 INFO    SenderThread:41278 [sender.py:transition_state():613] send defer: 4
+2024-03-13 14:28:42,171 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: defer
+2024-03-13 14:28:42,171 INFO    HandlerThread:41278 [handler.py:handle_request_defer():172] handle defer: 4
+2024-03-13 14:28:42,171 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: defer
+2024-03-13 14:28:42,172 INFO    SenderThread:41278 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-03-13 14:28:42,172 INFO    SenderThread:41278 [sender.py:transition_state():613] send defer: 5
+2024-03-13 14:28:42,172 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: defer
+2024-03-13 14:28:42,172 INFO    HandlerThread:41278 [handler.py:handle_request_defer():172] handle defer: 5
+2024-03-13 14:28:42,172 DEBUG   SenderThread:41278 [sender.py:send():378] send: summary
+2024-03-13 14:28:42,172 INFO    SenderThread:41278 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-13 14:28:42,173 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: defer
+2024-03-13 14:28:42,173 INFO    SenderThread:41278 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-03-13 14:28:42,173 INFO    SenderThread:41278 [sender.py:transition_state():613] send defer: 6
+2024-03-13 14:28:42,173 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: defer
+2024-03-13 14:28:42,173 INFO    HandlerThread:41278 [handler.py:handle_request_defer():172] handle defer: 6
+2024-03-13 14:28:42,173 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: defer
+2024-03-13 14:28:42,173 INFO    SenderThread:41278 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-03-13 14:28:42,179 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: status_report
+2024-03-13 14:28:42,355 INFO    SenderThread:41278 [sender.py:transition_state():613] send defer: 7
+2024-03-13 14:28:42,356 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: defer
+2024-03-13 14:28:42,356 INFO    HandlerThread:41278 [handler.py:handle_request_defer():172] handle defer: 7
+2024-03-13 14:28:42,356 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: defer
+2024-03-13 14:28:42,356 INFO    SenderThread:41278 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-03-13 14:28:42,482 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/config.yaml
+2024-03-13 14:28:42,483 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:28:43,115 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-13 14:28:44,483 INFO    Thread-12 :41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:28:45,506 INFO    SenderThread:41278 [sender.py:transition_state():613] send defer: 8
+2024-03-13 14:28:45,507 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: poll_exit
+2024-03-13 14:28:45,507 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: defer
+2024-03-13 14:28:45,507 INFO    HandlerThread:41278 [handler.py:handle_request_defer():172] handle defer: 8
+2024-03-13 14:28:45,508 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: defer
+2024-03-13 14:28:45,508 INFO    SenderThread:41278 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-03-13 14:28:45,508 INFO    SenderThread:41278 [job_builder.py:build():298] Attempting to build job artifact
+2024-03-13 14:28:45,508 INFO    SenderThread:41278 [job_builder.py:_get_source_type():439] no source found
+2024-03-13 14:28:45,509 INFO    SenderThread:41278 [sender.py:transition_state():613] send defer: 9
+2024-03-13 14:28:45,509 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: defer
+2024-03-13 14:28:45,509 INFO    HandlerThread:41278 [handler.py:handle_request_defer():172] handle defer: 9
+2024-03-13 14:28:45,509 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: defer
+2024-03-13 14:28:45,509 INFO    SenderThread:41278 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-03-13 14:28:45,509 INFO    SenderThread:41278 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-13 14:28:46,116 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-13 14:28:46,484 INFO    SenderThread:41278 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:28:46,485 INFO    SenderThread:41278 [dir_watcher.py:finish():388] scan: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files
+2024-03-13 14:28:46,485 INFO    SenderThread:41278 [dir_watcher.py:finish():402] scan save: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/requirements.txt requirements.txt
+2024-03-13 14:28:46,485 INFO    SenderThread:41278 [dir_watcher.py:finish():402] scan save: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-metadata.json wandb-metadata.json
+2024-03-13 14:28:46,485 INFO    SenderThread:41278 [dir_watcher.py:finish():402] scan save: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log output.log
+2024-03-13 14:28:46,489 INFO    SenderThread:41278 [dir_watcher.py:finish():402] scan save: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/config.yaml config.yaml
+2024-03-13 14:28:46,489 INFO    SenderThread:41278 [dir_watcher.py:finish():402] scan save: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json wandb-summary.json
+2024-03-13 14:28:46,489 INFO    SenderThread:41278 [sender.py:transition_state():613] send defer: 10
+2024-03-13 14:28:46,490 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: poll_exit
+2024-03-13 14:28:46,490 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: defer
+2024-03-13 14:28:46,490 INFO    HandlerThread:41278 [handler.py:handle_request_defer():172] handle defer: 10
+2024-03-13 14:28:46,493 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: defer
+2024-03-13 14:28:46,496 INFO    SenderThread:41278 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-03-13 14:28:46,499 INFO    SenderThread:41278 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-13 14:28:47,060 INFO    wandb-upload_0:41278 [upload_job.py:push():131] Uploaded file /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/requirements.txt
+2024-03-13 14:28:47,117 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-13 14:28:47,117 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: poll_exit
+2024-03-13 14:28:47,121 INFO    wandb-upload_1:41278 [upload_job.py:push():131] Uploaded file /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/output.log
+2024-03-13 14:28:47,125 INFO    wandb-upload_2:41278 [upload_job.py:push():131] Uploaded file /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/config.yaml
+2024-03-13 14:28:47,158 INFO    wandb-upload_3:41278 [upload_job.py:push():131] Uploaded file /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/files/wandb-summary.json
+2024-03-13 14:28:47,359 INFO    Thread-11 (_thread_body):41278 [sender.py:transition_state():613] send defer: 11
+2024-03-13 14:28:47,359 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: defer
+2024-03-13 14:28:47,360 INFO    HandlerThread:41278 [handler.py:handle_request_defer():172] handle defer: 11
+2024-03-13 14:28:47,360 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: defer
+2024-03-13 14:28:47,360 INFO    SenderThread:41278 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-03-13 14:28:47,360 INFO    SenderThread:41278 [file_pusher.py:join():178] waiting for file pusher
+2024-03-13 14:28:47,361 INFO    SenderThread:41278 [sender.py:transition_state():613] send defer: 12
+2024-03-13 14:28:47,361 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: defer
+2024-03-13 14:28:47,361 INFO    HandlerThread:41278 [handler.py:handle_request_defer():172] handle defer: 12
+2024-03-13 14:28:47,361 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: defer
+2024-03-13 14:28:47,362 INFO    SenderThread:41278 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-03-13 14:28:47,362 INFO    SenderThread:41278 [file_stream.py:finish():595] file stream finish called
+2024-03-13 14:28:47,981 INFO    SenderThread:41278 [file_stream.py:finish():599] file stream finish is done
+2024-03-13 14:28:47,982 INFO    SenderThread:41278 [sender.py:transition_state():613] send defer: 13
+2024-03-13 14:28:47,982 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: defer
+2024-03-13 14:28:47,982 INFO    HandlerThread:41278 [handler.py:handle_request_defer():172] handle defer: 13
+2024-03-13 14:28:47,983 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: defer
+2024-03-13 14:28:47,983 INFO    SenderThread:41278 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-03-13 14:28:47,983 INFO    SenderThread:41278 [sender.py:transition_state():613] send defer: 14
+2024-03-13 14:28:47,983 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: defer
+2024-03-13 14:28:47,984 INFO    HandlerThread:41278 [handler.py:handle_request_defer():172] handle defer: 14
+2024-03-13 14:28:47,984 DEBUG   SenderThread:41278 [sender.py:send():378] send: final
+2024-03-13 14:28:47,984 DEBUG   SenderThread:41278 [sender.py:send():378] send: footer
+2024-03-13 14:28:47,984 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: defer
+2024-03-13 14:28:47,984 INFO    SenderThread:41278 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-03-13 14:28:47,985 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-13 14:28:47,986 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: poll_exit
+2024-03-13 14:28:47,987 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-13 14:28:47,988 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: server_info
+2024-03-13 14:28:47,989 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: server_info
+2024-03-13 14:28:48,030 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: get_summary
+2024-03-13 14:28:48,031 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: sampled_history
+2024-03-13 14:28:48,032 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: job_info
+2024-03-13 14:28:48,186 DEBUG   SenderThread:41278 [sender.py:send_request():405] send_request: job_info
+2024-03-13 14:28:48,187 DEBUG   HandlerThread:41278 [handler.py:handle_request():146] handle_request: shutdown
+2024-03-13 14:28:48,188 INFO    HandlerThread:41278 [handler.py:finish():869] shutting down handler
+2024-03-13 14:28:49,032 INFO    WriterThread:41278 [datastore.py:close():296] close: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240313_140438-qpdijmk5/run-qpdijmk5.wandb
+2024-03-13 14:28:49,187 INFO    SenderThread:41278 [sender.py:finish():1521] shutting down sender
+2024-03-13 14:28:49,187 INFO    SenderThread:41278 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-13 14:28:49,187 INFO    SenderThread:41278 [file_pusher.py:join():178] waiting for file pusher

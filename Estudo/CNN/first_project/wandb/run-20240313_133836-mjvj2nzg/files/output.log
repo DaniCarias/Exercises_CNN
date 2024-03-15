@@ -1,0 +1,200 @@
+Dataset: ./data/cats_dogs_full/train and ./data/cats_dogs_full/test
+Train dataloader: 624 batches
+Test dataloader: 157 batches
+--------Epoch: 0
+-Training...
+Batch: 0/624
+Batch: 400/624
+/home/danielcarias/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Per batch -> Train Loss: 0.6916983723640442 | Train Accuracy: 52.08%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.6905132532119751 | Test Accuracy: 55.10%
+--------Epoch: 1
+-Training...
+Batch: 0/624
+/home/danielcarias/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Batch: 400/624
+Per batch -> Train Loss: 0.683341920375824 | Train Accuracy: 56.45%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.6950264573097229 | Test Accuracy: 54.90%
+--------Epoch: 2
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.6752957701683044 | Train Accuracy: 58.54%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.6693405508995056 | Test Accuracy: 59.89%
+--------Epoch: 3
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.6648373007774353 | Train Accuracy: 60.40%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.6598374843597412 | Test Accuracy: 61.45%
+--------Epoch: 4
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.6525631546974182 | Train Accuracy: 62.59%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.648959755897522 | Test Accuracy: 62.22%
+--------Epoch: 5
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.6341722011566162 | Train Accuracy: 64.73%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.626515805721283 | Test Accuracy: 64.61%
+--------Epoch: 6
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.6206116080284119 | Train Accuracy: 65.89%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.6211506128311157 | Test Accuracy: 65.39%
+--------Epoch: 7
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.6066733002662659 | Train Accuracy: 67.76%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.6134728789329529 | Test Accuracy: 65.96%
+--------Epoch: 8
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.5841189026832581 | Train Accuracy: 69.28%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.5827348828315735 | Test Accuracy: 69.63%
+--------Epoch: 9
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.5629597306251526 | Train Accuracy: 71.26%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.5853773951530457 | Test Accuracy: 69.15%
+--------Epoch: 10
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.545303463935852 | Train Accuracy: 72.65%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.5828601717948914 | Test Accuracy: 69.96%
+--------Epoch: 11
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.5286610126495361 | Train Accuracy: 74.13%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.5584152936935425 | Test Accuracy: 71.86%
+--------Epoch: 12
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.5168778300285339 | Train Accuracy: 74.95%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.5812626481056213 | Test Accuracy: 69.07%
+--------Epoch: 13
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.5060806274414062 | Train Accuracy: 75.76%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Per batch -> Test Loss: 0.5780813694000244 | Test Accuracy: 70.02%
+--------Epoch: 14
+-Training...
+Batch: 0/624
+Batch: 400/624
+Per batch -> Train Loss: 0.49457940459251404 | Train Accuracy: 76.29%
+-Testing...
+Batch: 0/157
+Batch: 50/157
+Batch: 100/157
+Batch: 150/157
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 166, in <module>
+    model, loss, accuracy  = eval_model(model, test_dataloader, loss_fn, accuracy_fn, device)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/utils.py", line 56, in eval_model
+    loss += loss_fn(y_pred, y)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/nn/modules/loss.py", line 725, in forward
+    return F.binary_cross_entropy_with_logits(input, target,
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/nn/functional.py", line 3197, in binary_cross_entropy_with_logits
+    raise ValueError(f"Target size ({target.size()}) must be the same as input size ({input.size()})")
+ValueError: Target size (torch.Size([32])) must be the same as input size (torch.Size([32, 1]))
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 166, in <module>
+    model, loss, accuracy  = eval_model(model, test_dataloader, loss_fn, accuracy_fn, device)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/utils.py", line 56, in eval_model
+    loss += loss_fn(y_pred, y)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/nn/modules/loss.py", line 725, in forward
+    return F.binary_cross_entropy_with_logits(input, target,
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/nn/functional.py", line 3197, in binary_cross_entropy_with_logits
+    raise ValueError(f"Target size ({target.size()}) must be the same as input size ({input.size()})")
+ValueError: Target size (torch.Size([32])) must be the same as input size (torch.Size([32, 1]))
+Per batch -> Test Loss: 0.558332085609436 | Test Accuracy: 72.35%

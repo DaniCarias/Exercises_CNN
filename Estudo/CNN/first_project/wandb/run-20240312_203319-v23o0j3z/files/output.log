@@ -1,0 +1,57 @@
+Labels: 10
+--------Epoch: 0
+-Training...
+Batch: 0/3750
+Batch: 400/3750
+Batch: 800/3750
+Batch: 1200/3750
+Batch: 1600/3750
+Batch: 2000/3750
+Batch: 2400/3750
+Batch: 2800/3750
+Batch: 3200/3750
+Batch: 3600/3750
+Per batch -> Train Loss: 1.2925037145614624 | Train Accuracy: 56.19%
+-Testing...
+Batch: 0/625
+Batch: 50/625
+Batch: 100/625
+Batch: 150/625
+Batch: 200/625
+Batch: 250/625
+Batch: 300/625
+Batch: 350/625
+Batch: 400/625
+Batch: 450/625
+Batch: 500/625
+Batch: 550/625
+Batch: 600/625
+Per batch -> Test Loss: 1.066008448600769 | Test Accuracy: 63.31%
+--------Epoch: 1
+-Training...
+Batch: 0/3750
+Batch: 400/3750
+Batch: 800/3750
+Batch: 1200/3750
+Batch: 1600/3750
+Batch: 2000/3750
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 153, in <module>
+    train_loss, train_acc = train_model(model, train_dataloader, loss_fn, optimizer)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 75, in train_model
+    loss.backward()
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/_tensor.py", line 522, in backward
+    torch.autograd.backward(
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/autograd/__init__.py", line 266, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 153, in <module>
+    train_loss, train_acc = train_model(model, train_dataloader, loss_fn, optimizer)
+  File "/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py", line 75, in train_model
+    loss.backward()
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/_tensor.py", line 522, in backward
+    torch.autograd.backward(
+  File "/home/danielcarias/.local/lib/python3.10/site-packages/torch/autograd/__init__.py", line 266, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

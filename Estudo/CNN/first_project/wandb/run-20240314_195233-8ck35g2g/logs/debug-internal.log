@@ -1,0 +1,1242 @@
+2024-03-14 19:52:33,624 INFO    StreamThr :11896 [internal.py:wandb_internal():86] W&B internal server running at pid: 11896, started at: 2024-03-14 19:52:33.624118
+2024-03-14 19:52:33,625 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status
+2024-03-14 19:52:33,627 INFO    WriterThread:11896 [datastore.py:open_for_write():87] open: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/run-8ck35g2g.wandb
+2024-03-14 19:52:33,627 DEBUG   SenderThread:11896 [sender.py:send():378] send: header
+2024-03-14 19:52:33,628 DEBUG   SenderThread:11896 [sender.py:send():378] send: run
+2024-03-14 19:52:34,128 INFO    SenderThread:11896 [dir_watcher.py:__init__():211] watching files in: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files
+2024-03-14 19:52:34,128 INFO    SenderThread:11896 [sender.py:_start_run_threads():1099] run started: 8ck35g2g with start time 1710445953.624258
+2024-03-14 19:52:34,134 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: check_version
+2024-03-14 19:52:34,135 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: check_version
+2024-03-14 19:52:34,300 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: run_start
+2024-03-14 19:52:34,325 DEBUG   HandlerThread:11896 [system_info.py:__init__():26] System info init
+2024-03-14 19:52:34,325 DEBUG   HandlerThread:11896 [system_info.py:__init__():41] System info init done
+2024-03-14 19:52:34,325 INFO    HandlerThread:11896 [system_monitor.py:start():194] Starting system monitor
+2024-03-14 19:52:34,325 INFO    SystemMonitor:11896 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-14 19:52:34,325 INFO    HandlerThread:11896 [system_monitor.py:probe():214] Collecting system info
+2024-03-14 19:52:34,326 INFO    SystemMonitor:11896 [interfaces.py:start():190] Started cpu monitoring
+2024-03-14 19:52:34,326 INFO    SystemMonitor:11896 [interfaces.py:start():190] Started disk monitoring
+2024-03-14 19:52:34,327 INFO    SystemMonitor:11896 [interfaces.py:start():190] Started gpu monitoring
+2024-03-14 19:52:34,327 INFO    SystemMonitor:11896 [interfaces.py:start():190] Started memory monitoring
+2024-03-14 19:52:34,328 INFO    SystemMonitor:11896 [interfaces.py:start():190] Started network monitoring
+2024-03-14 19:52:34,334 DEBUG   HandlerThread:11896 [system_info.py:probe():150] Probing system
+2024-03-14 19:52:34,336 DEBUG   HandlerThread:11896 [gitlib.py:_init_repo():56] git repository is invalid
+2024-03-14 19:52:34,336 DEBUG   HandlerThread:11896 [system_info.py:probe():198] Probing system done
+2024-03-14 19:52:34,336 DEBUG   HandlerThread:11896 [system_monitor.py:probe():223] {'os': 'Linux-6.6.10-76060610-generic-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2024-03-14T19:52:34.334188', 'startedAt': '2024-03-14T19:52:33.617056', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/CNN.py', 'codePathLocal': 'CNN.py', 'codePath': 'CNN.py', 'host': 'pop-os', 'username': 'danielcarias', 'executable': '/bin/python3', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 3271.4215833333333, 'min': 1400.0, 'max': 3000.0}, 'cpu_freq_per_core': [{'current': 3991.978, 'min': 1400.0, 'max': 3000.0}, {'current': 3992.716, 'min': 1400.0, 'max': 3000.0}, {'current': 3348.552, 'min': 1400.0, 'max': 3000.0}, {'current': 3566.591, 'min': 1400.0, 'max': 3000.0}, {'current': 3862.595, 'min': 1400.0, 'max': 3000.0}, {'current': 3901.012, 'min': 1400.0, 'max': 3000.0}, {'current': 1953.712, 'min': 1400.0, 'max': 3000.0}, {'current': 2065.989, 'min': 1400.0, 'max': 3000.0}, {'current': 1773.728, 'min': 1400.0, 'max': 3000.0}, {'current': 3819.985, 'min': 1400.0, 'max': 3000.0}, {'current': 3990.434, 'min': 1400.0, 'max': 3000.0}, {'current': 3992.354, 'min': 1400.0, 'max': 3000.0}], 'disk': {'/': {'total': 459.5223274230957, 'used': 126.55132293701172}}, 'gpu': 'NVIDIA GeForce GTX 1650', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650', 'memory_total': 4294967296}], 'memory': {'total': 14.997817993164062}}
+2024-03-14 19:52:34,336 INFO    HandlerThread:11896 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-14 19:52:34,336 INFO    HandlerThread:11896 [system_monitor.py:probe():227] Publishing system info
+2024-03-14 19:52:34,338 INFO    HandlerThread:11896 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-14 19:52:34,342 DEBUG   SenderThread:11896 [sender.py:send():378] send: files
+2024-03-14 19:52:34,343 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2024-03-14 19:52:34,437 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-14 19:52:34,438 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: python_packages
+2024-03-14 19:52:34,438 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 19:52:34,439 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 19:52:34,440 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 19:52:34,740 DEBUG   SenderThread:11896 [sender.py:send():378] send: telemetry
+2024-03-14 19:52:35,130 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_created():271] file/dir created: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:52:35,130 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_created():271] file/dir created: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-metadata.json
+2024-03-14 19:52:35,130 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_created():271] file/dir created: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/requirements.txt
+2024-03-14 19:52:35,150 INFO    wandb-upload_0:11896 [upload_job.py:push():131] Uploaded file /tmp/tmp_pbytutcwandb/5o9iwoxw-wandb-metadata.json
+2024-03-14 19:52:37,130 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:52:38,742 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:52:43,743 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:52:47,132 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:52:48,770 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:52:49,133 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:52:49,437 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 19:52:49,438 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 19:52:49,439 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 19:52:53,795 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:52:58,795 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:53:03,798 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:53:04,138 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/config.yaml
+2024-03-14 19:53:04,438 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 19:53:04,438 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 19:53:04,478 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 19:53:09,641 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:53:14,642 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:53:19,438 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 19:53:19,438 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 19:53:19,439 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 19:53:19,689 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:53:20,145 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:53:23,146 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:53:25,139 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:53:30,139 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:53:34,328 DEBUG   SystemMonitor:11896 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-14 19:53:34,329 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 19:53:34,438 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 19:53:34,438 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 19:53:34,438 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 19:53:35,759 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:53:40,759 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:53:43,151 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:53:46,039 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:53:47,152 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:53:49,438 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 19:53:49,438 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 19:53:49,439 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 19:53:51,153 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:53:51,699 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:53:54,104 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-14 19:53:54,106 DEBUG   SenderThread:11896 [sender.py:send():378] send: history
+2024-03-14 19:53:54,106 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: summary_record
+2024-03-14 19:53:54,106 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 19:53:54,154 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_created():271] file/dir created: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 19:53:55,154 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:53:57,198 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:54:02,199 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:54:04,329 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 19:54:04,439 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 19:54:04,439 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 19:54:04,439 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 19:54:07,604 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:54:12,605 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:54:17,605 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:54:19,439 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 19:54:19,439 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 19:54:19,486 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 19:54:22,681 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:54:27,162 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:54:27,855 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:54:32,855 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:54:34,164 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:54:34,330 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 19:54:34,438 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 19:54:34,439 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 19:54:34,439 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 19:54:38,655 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:54:43,168 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:54:44,013 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:54:47,169 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:54:49,408 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:54:49,438 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 19:54:49,439 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 19:54:49,439 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 19:54:51,170 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:54:53,438 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-14 19:54:53,439 DEBUG   SenderThread:11896 [sender.py:send():378] send: history
+2024-03-14 19:54:53,440 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: summary_record
+2024-03-14 19:54:53,441 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 19:54:54,171 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 19:54:54,526 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:54:55,171 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:54:59,526 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:55:04,331 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 19:55:04,438 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 19:55:04,439 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 19:55:04,440 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 19:55:04,657 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:55:09,657 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:55:14,658 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:55:19,439 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 19:55:19,439 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 19:55:19,486 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 19:55:19,710 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:55:25,519 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:55:27,179 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:55:30,519 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:55:34,331 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 19:55:34,439 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 19:55:34,439 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 19:55:34,439 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 19:55:35,763 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:55:40,763 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:55:43,183 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:55:46,713 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:55:47,184 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:55:49,439 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 19:55:49,439 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 19:55:49,440 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 19:55:51,185 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:55:51,715 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:55:53,860 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-14 19:55:53,860 DEBUG   SenderThread:11896 [sender.py:send():378] send: history
+2024-03-14 19:55:53,860 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: summary_record
+2024-03-14 19:55:53,861 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 19:55:54,186 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 19:55:55,186 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:55:56,953 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:56:01,953 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:56:04,332 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 19:56:04,439 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 19:56:04,439 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 19:56:04,440 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 19:56:07,767 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:56:12,768 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:56:17,768 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:56:19,439 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 19:56:19,439 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 19:56:19,482 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 19:56:23,718 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:56:27,194 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:56:29,151 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:56:34,151 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:56:34,332 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 19:56:34,439 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 19:56:34,439 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 19:56:34,441 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 19:56:39,668 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:56:43,199 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:56:45,199 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:56:45,563 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:56:47,200 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:56:49,439 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 19:56:49,439 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 19:56:49,441 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 19:56:51,201 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:56:51,294 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:56:54,493 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-14 19:56:54,494 DEBUG   SenderThread:11896 [sender.py:send():378] send: history
+2024-03-14 19:56:54,494 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: summary_record
+2024-03-14 19:56:54,496 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 19:56:55,202 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:56:55,202 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 19:56:56,576 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:56:57,202 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:57:01,577 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:57:04,333 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 19:57:04,439 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 19:57:04,440 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 19:57:04,441 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 19:57:06,773 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:57:11,774 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:57:16,774 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:57:19,439 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 19:57:19,440 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 19:57:19,486 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 19:57:22,697 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:57:27,210 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:57:28,239 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:57:33,239 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:57:34,333 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 19:57:34,440 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 19:57:34,440 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 19:57:34,441 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 19:57:38,675 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:57:43,675 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:57:45,215 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:57:48,786 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:57:49,216 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:57:49,440 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 19:57:49,440 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 19:57:49,441 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 19:57:53,217 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:57:54,679 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:57:55,890 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-14 19:57:55,891 DEBUG   SenderThread:11896 [sender.py:send():378] send: history
+2024-03-14 19:57:55,891 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: summary_record
+2024-03-14 19:57:55,891 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 19:57:56,218 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 19:57:57,218 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:57:59,974 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:58:04,334 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 19:58:04,440 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 19:58:04,440 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 19:58:04,441 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 19:58:05,780 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:58:10,781 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:58:15,782 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:58:19,440 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 19:58:19,440 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 19:58:19,482 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 19:58:21,629 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:58:26,629 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:58:29,225 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:58:32,435 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:58:34,334 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 19:58:34,440 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 19:58:34,440 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 19:58:34,441 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 19:58:38,594 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:58:43,594 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:58:47,230 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:58:48,959 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:58:49,440 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 19:58:49,441 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 19:58:49,442 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 19:58:51,231 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:58:54,782 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:58:55,232 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:58:56,877 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-14 19:58:56,878 DEBUG   SenderThread:11896 [sender.py:send():378] send: history
+2024-03-14 19:58:56,878 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: summary_record
+2024-03-14 19:58:56,878 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 19:58:57,232 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:58:57,233 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 19:58:59,233 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:58:59,959 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:59:04,335 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 19:59:04,440 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 19:59:04,441 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 19:59:04,442 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 19:59:05,685 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:59:10,685 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:59:15,686 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:59:19,441 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 19:59:19,441 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 19:59:19,482 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 19:59:21,635 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:59:26,636 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:59:31,241 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:59:32,419 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:59:34,336 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 19:59:34,441 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 19:59:34,441 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 19:59:34,443 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 19:59:37,689 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:59:42,689 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:59:48,004 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:59:49,246 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:59:49,441 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 19:59:49,441 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 19:59:49,442 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 19:59:53,247 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:59:53,799 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 19:59:55,247 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:59:58,596 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-14 19:59:58,597 DEBUG   SenderThread:11896 [sender.py:send():378] send: history
+2024-03-14 19:59:58,598 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: summary_record
+2024-03-14 19:59:58,599 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 19:59:59,248 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 19:59:59,248 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 19:59:59,682 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:00:04,336 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:00:04,441 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:00:04,442 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:00:04,442 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:00:05,623 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:00:10,624 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:00:15,624 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:00:19,441 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:00:19,442 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:00:19,482 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:00:20,858 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:00:25,859 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:00:31,015 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:00:32,256 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:00:34,337 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:00:34,441 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:00:34,442 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:00:34,442 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:00:36,632 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:00:41,632 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:00:46,640 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:00:48,259 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:00:49,441 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:00:49,442 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:00:49,442 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:00:51,720 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:00:52,261 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:00:54,261 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:00:56,896 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:00:56,900 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-14 20:00:56,901 DEBUG   SenderThread:11896 [sender.py:send():378] send: history
+2024-03-14 20:00:56,901 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: summary_record
+2024-03-14 20:00:56,902 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 20:00:57,262 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 20:00:58,262 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:01:01,981 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:01:04,337 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:01:04,442 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:01:04,442 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:01:04,442 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:01:08,170 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:01:13,171 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:01:18,171 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:01:19,442 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:01:19,442 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:01:19,486 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:01:23,754 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:01:28,269 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:01:29,011 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:01:34,011 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:01:34,338 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:01:34,442 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:01:34,442 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:01:34,443 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:01:39,627 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:01:45,613 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:01:46,273 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:01:49,442 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:01:49,442 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:01:49,443 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:01:50,274 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:01:50,653 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:01:52,274 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:01:54,954 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-14 20:01:54,955 DEBUG   SenderThread:11896 [sender.py:send():378] send: history
+2024-03-14 20:01:54,955 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: summary_record
+2024-03-14 20:01:54,955 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 20:01:55,275 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 20:01:56,043 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:01:56,275 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:02:01,044 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:02:04,338 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:02:04,442 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:02:04,442 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:02:04,443 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:02:06,632 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:02:11,632 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:02:16,633 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:02:19,442 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:02:19,443 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:02:19,490 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:02:21,657 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:02:26,282 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:02:27,059 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:02:32,060 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:02:34,339 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:02:34,442 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:02:34,442 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:02:34,444 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:02:38,262 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:02:43,920 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:02:44,287 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:02:48,288 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:02:49,190 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:02:49,442 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:02:49,442 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:02:49,444 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:02:50,288 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:02:53,213 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-14 20:02:53,214 DEBUG   SenderThread:11896 [sender.py:send():378] send: history
+2024-03-14 20:02:53,214 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: summary_record
+2024-03-14 20:02:53,215 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 20:02:53,289 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 20:02:54,289 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:02:54,295 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:02:59,295 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:03:04,296 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:03:04,339 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:03:04,442 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:03:04,443 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:03:04,444 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:03:09,713 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:03:14,714 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:03:19,442 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:03:19,443 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:03:19,490 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:03:19,766 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:03:24,297 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:03:25,050 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:03:30,051 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:03:34,340 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:03:34,442 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:03:34,443 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:03:34,444 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:03:35,639 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:03:40,301 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:03:41,487 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:03:44,302 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:03:46,796 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:03:48,303 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:03:49,443 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:03:49,443 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:03:49,444 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:03:50,841 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-14 20:03:50,842 DEBUG   SenderThread:11896 [sender.py:send():378] send: history
+2024-03-14 20:03:50,842 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: summary_record
+2024-03-14 20:03:50,843 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 20:03:51,304 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 20:03:51,926 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:03:52,304 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:03:56,927 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:04:01,927 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:04:04,340 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:04:04,443 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:04:04,443 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:04:04,444 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:04:08,015 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:04:13,016 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:04:18,016 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:04:19,443 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:04:19,443 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:04:19,490 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:04:23,312 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:04:23,811 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:04:28,811 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:04:33,812 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:04:34,341 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:04:34,443 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:04:34,443 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:04:34,444 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:04:39,206 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:04:39,316 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:04:43,317 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:04:44,719 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:04:47,318 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:04:48,773 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-14 20:04:48,774 DEBUG   SenderThread:11896 [sender.py:send():378] send: history
+2024-03-14 20:04:48,775 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: summary_record
+2024-03-14 20:04:48,775 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 20:04:49,318 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 20:04:49,443 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:04:49,443 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:04:49,444 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:04:50,685 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:04:51,319 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:04:55,686 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:05:00,687 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:05:04,341 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:05:04,443 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:05:04,443 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:05:04,486 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:05:05,689 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:05:10,689 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:05:15,690 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:05:19,443 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:05:19,443 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:05:19,444 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:05:21,326 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:05:21,677 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:05:26,677 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:05:31,678 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:05:34,342 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:05:34,443 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:05:34,443 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:05:34,486 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:05:36,720 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:05:37,330 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:05:41,332 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:05:42,332 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:05:45,333 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:05:47,015 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-14 20:05:47,016 DEBUG   SenderThread:11896 [sender.py:send():378] send: history
+2024-03-14 20:05:47,017 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: summary_record
+2024-03-14 20:05:47,017 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 20:05:47,334 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 20:05:48,097 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:05:49,334 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:05:49,443 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:05:49,444 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:05:49,445 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:05:53,783 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:05:58,784 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:06:03,784 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:06:04,342 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:06:04,444 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:06:04,444 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:06:04,490 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:06:09,631 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:06:14,632 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:06:19,342 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:06:19,444 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:06:19,444 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:06:19,445 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:06:19,683 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:06:24,684 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:06:29,684 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:06:34,343 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:06:34,444 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:06:34,444 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:06:34,445 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:06:34,736 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:06:35,345 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:06:39,346 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:06:40,355 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:06:43,347 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:06:44,932 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-14 20:06:44,933 DEBUG   SenderThread:11896 [sender.py:send():378] send: history
+2024-03-14 20:06:44,934 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: summary_record
+2024-03-14 20:06:44,934 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 20:06:45,348 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 20:06:46,020 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:06:47,348 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:06:49,444 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:06:49,444 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:06:49,444 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:06:51,687 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:06:56,688 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:07:01,688 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:07:04,346 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:07:04,444 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:07:04,444 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:07:04,486 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:07:06,739 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:07:11,740 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:07:17,223 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:07:17,355 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:07:19,444 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:07:19,445 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:07:19,445 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:07:22,690 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:07:27,690 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:07:32,810 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:07:33,359 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:07:34,344 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:07:34,444 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:07:34,445 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:07:34,445 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:07:37,360 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:07:38,427 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:07:41,361 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:07:43,086 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-14 20:07:43,087 DEBUG   SenderThread:11896 [sender.py:send():378] send: history
+2024-03-14 20:07:43,087 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: summary_record
+2024-03-14 20:07:43,088 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 20:07:43,362 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 20:07:44,172 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:07:45,362 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:07:49,172 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:07:49,444 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:07:49,445 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:07:49,445 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:07:54,694 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:07:59,695 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:08:04,345 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:08:04,445 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:08:04,445 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:08:04,486 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:08:04,746 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:08:09,747 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:08:15,370 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:08:15,374 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:08:19,445 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:08:19,445 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:08:19,445 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:08:20,632 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:08:25,632 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:08:31,136 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:08:31,373 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:08:34,345 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:08:34,445 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:08:34,445 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:08:34,446 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:08:36,375 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:08:36,648 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:08:40,376 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:08:41,448 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-14 20:08:41,449 DEBUG   SenderThread:11896 [sender.py:send():378] send: history
+2024-03-14 20:08:41,449 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: summary_record
+2024-03-14 20:08:41,449 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 20:08:42,376 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 20:08:42,536 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:08:44,377 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:08:47,536 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:08:49,445 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:08:49,445 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:08:49,446 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:08:52,682 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:08:57,682 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:09:02,683 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:09:04,345 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:09:04,445 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:09:04,445 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:09:04,490 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:09:07,753 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:09:12,890 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:09:14,385 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:09:17,891 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:09:19,445 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:09:19,445 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:09:19,446 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:09:23,706 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:09:29,571 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:09:30,389 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:09:34,346 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:09:34,390 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:09:34,445 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:09:34,445 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:09:34,447 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:09:37,990 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:09:39,659 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-14 20:09:39,659 DEBUG   SenderThread:11896 [sender.py:send():378] send: history
+2024-03-14 20:09:39,660 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: summary_record
+2024-03-14 20:09:39,660 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 20:09:40,391 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:09:40,392 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 20:09:42,392 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:09:43,741 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:09:48,741 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:09:49,445 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:09:49,445 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:09:49,447 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:09:54,704 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:09:59,705 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:10:04,346 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:10:04,445 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:10:04,446 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:10:04,486 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:10:04,761 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:10:09,761 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:10:12,400 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:10:14,829 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:10:19,445 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:10:19,446 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:10:19,447 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:10:20,711 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:10:25,711 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:10:28,404 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:10:31,297 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:10:32,405 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:10:34,347 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:10:34,445 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:10:34,446 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:10:34,447 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:10:36,407 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:10:36,765 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:10:37,948 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-14 20:10:37,949 DEBUG   SenderThread:11896 [sender.py:send():378] send: history
+2024-03-14 20:10:37,949 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: summary_record
+2024-03-14 20:10:37,950 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 20:10:38,407 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 20:10:40,408 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:10:42,035 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:10:47,036 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:10:49,445 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:10:49,446 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:10:49,447 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:10:52,715 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:10:57,715 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:11:02,716 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:11:04,347 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:11:04,446 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:11:04,446 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:11:04,486 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:11:08,062 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:11:10,415 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:11:13,103 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:11:18,103 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:11:19,446 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:11:19,446 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:11:19,447 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:11:23,718 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:11:26,419 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:11:29,276 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:11:30,420 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:11:34,348 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:11:34,348 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:11:34,421 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:11:34,446 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:11:34,446 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:11:34,447 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:11:35,893 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-14 20:11:35,894 DEBUG   SenderThread:11896 [sender.py:send():378] send: history
+2024-03-14 20:11:35,894 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: summary_record
+2024-03-14 20:11:35,895 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 20:11:36,422 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:11:36,422 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 20:11:38,423 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:11:39,980 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:11:44,980 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:11:49,446 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:11:49,446 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:11:49,447 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:11:50,722 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:11:55,722 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:12:00,723 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:12:04,348 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:12:04,446 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:12:04,447 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:12:04,494 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:12:07,977 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:12:10,430 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:12:12,977 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:12:17,978 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:12:19,446 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:12:19,446 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:12:19,448 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:12:23,709 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:12:24,433 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:12:28,434 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:12:29,304 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:12:32,435 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:12:34,073 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-14 20:12:34,074 DEBUG   SenderThread:11896 [sender.py:send():378] send: history
+2024-03-14 20:12:34,075 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: summary_record
+2024-03-14 20:12:34,075 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 20:12:34,349 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:12:34,350 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:12:34,436 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:12:34,436 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 20:12:34,446 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:12:34,447 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:12:34,448 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:12:36,436 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:12:39,777 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:12:44,778 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:12:49,446 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:12:49,447 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:12:49,490 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:12:50,640 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:12:55,641 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:13:00,641 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:13:04,349 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:13:04,446 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:13:04,447 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:13:04,490 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:13:05,678 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:13:07,443 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:13:10,679 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:13:15,680 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:13:19,447 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:13:19,447 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:13:19,494 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:13:20,736 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:13:23,447 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:13:25,912 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:13:27,448 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:13:31,449 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:13:31,484 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:13:32,351 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-14 20:13:32,352 DEBUG   SenderThread:11896 [sender.py:send():378] send: history
+2024-03-14 20:13:32,353 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: summary_record
+2024-03-14 20:13:32,353 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 20:13:32,449 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 20:13:33,450 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:13:34,350 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:13:34,447 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:13:34,447 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:13:34,449 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:13:35,450 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:13:36,650 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:13:41,651 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:13:46,651 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:13:49,447 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:13:49,447 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:13:49,494 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:13:52,636 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:13:57,636 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:14:02,637 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:14:04,350 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:14:04,447 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:14:04,447 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:14:04,448 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:14:05,457 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:14:07,677 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:14:12,677 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:14:17,678 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:14:19,447 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:14:19,447 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:14:19,448 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:14:21,461 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:14:23,093 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:14:25,462 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:14:28,713 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:14:29,463 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:14:30,760 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-14 20:14:30,761 DEBUG   SenderThread:11896 [sender.py:send():378] send: history
+2024-03-14 20:14:30,761 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: summary_record
+2024-03-14 20:14:30,761 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 20:14:31,463 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 20:14:33,464 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:14:33,840 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:14:34,351 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:14:34,448 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:14:34,448 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:14:34,448 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:14:39,617 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:14:44,618 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:14:49,447 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:14:49,448 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:14:49,490 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:14:49,621 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:14:54,622 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:14:59,623 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:15:03,471 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:15:04,351 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:15:04,447 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:15:04,448 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:15:04,449 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:15:04,692 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:15:09,693 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:15:14,694 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:15:19,447 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:15:19,448 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:15:19,449 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:15:19,474 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:15:20,642 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:15:23,475 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:15:25,746 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:15:27,476 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:15:28,656 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-14 20:15:28,657 DEBUG   SenderThread:11896 [sender.py:send():378] send: history
+2024-03-14 20:15:28,657 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: summary_record
+2024-03-14 20:15:28,657 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 20:15:29,477 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:15:29,477 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 20:15:30,893 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:15:31,477 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:15:34,352 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:15:34,448 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:15:34,448 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:15:34,449 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:15:38,143 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:15:43,143 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:15:48,144 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:15:49,448 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:15:49,448 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:15:49,490 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:15:53,731 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:15:58,732 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:16:01,484 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:16:04,353 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:16:04,354 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:16:04,448 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:16:04,448 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:16:04,449 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:16:09,616 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:16:14,617 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:16:17,488 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:16:19,448 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:16:19,448 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:16:19,449 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:16:19,751 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:16:21,490 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:16:25,397 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:16:25,491 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:16:27,380 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-14 20:16:27,381 DEBUG   SenderThread:11896 [sender.py:send():378] send: history
+2024-03-14 20:16:27,381 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: summary_record
+2024-03-14 20:16:27,381 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 20:16:27,491 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 20:16:29,492 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:16:30,472 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:16:34,353 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:16:34,448 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:16:34,448 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:16:34,449 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:16:35,805 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:16:40,805 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:16:45,806 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:16:49,448 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:16:49,448 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:16:49,494 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:16:51,755 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:16:56,755 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:16:59,499 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:17:02,627 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:17:04,354 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:17:04,448 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:17:04,448 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:17:04,450 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:17:07,629 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:17:12,630 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:17:15,503 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:17:18,011 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:17:19,448 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:17:19,448 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:17:19,450 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:17:20,505 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:17:23,619 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:17:24,506 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:17:25,527 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-14 20:17:25,528 DEBUG   SenderThread:11896 [sender.py:send():378] send: history
+2024-03-14 20:17:25,528 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: summary_record
+2024-03-14 20:17:25,529 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 20:17:26,506 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 20:17:28,507 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:17:29,615 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:17:34,354 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:17:34,448 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:17:34,449 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:17:34,450 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:17:34,642 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:17:39,642 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:17:44,643 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:17:49,448 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:17:49,449 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:17:49,490 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:17:49,666 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:17:54,666 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:17:58,515 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:18:00,187 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:18:04,355 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:18:04,448 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:18:04,449 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:18:04,450 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:18:07,824 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:18:12,825 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:18:14,519 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:18:18,463 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:18:18,520 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:18:19,449 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:18:19,449 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:18:19,450 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:18:22,521 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:18:23,598 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:18:23,970 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-14 20:18:23,970 DEBUG   SenderThread:11896 [sender.py:send():378] send: history
+2024-03-14 20:18:23,971 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: summary_record
+2024-03-14 20:18:23,971 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 20:18:24,521 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 20:18:26,522 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:18:29,051 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:18:34,052 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:18:34,355 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:18:34,449 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:18:34,449 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:18:34,450 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:18:39,820 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:18:44,821 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:18:49,449 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:18:49,449 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:18:49,494 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:18:50,769 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:18:56,059 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:18:56,529 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:19:01,059 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:19:04,356 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:19:04,449 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:19:04,449 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:19:04,450 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:19:06,619 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:19:11,781 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:19:12,533 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:19:16,534 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:19:17,441 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:19:19,449 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:19:19,450 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:19:19,451 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:19:20,535 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:19:22,062 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-14 20:19:22,063 DEBUG   SenderThread:11896 [sender.py:send():378] send: history
+2024-03-14 20:19:22,064 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: summary_record
+2024-03-14 20:19:22,064 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 20:19:22,536 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 20:19:23,142 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:19:24,536 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:19:28,142 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:19:33,143 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:19:34,356 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:19:34,449 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:19:34,449 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:19:34,450 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:19:38,617 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:19:43,617 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:19:48,618 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:19:49,449 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:19:49,449 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:19:49,490 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:19:54,331 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:19:54,543 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:19:59,331 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:20:04,332 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:20:04,357 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:20:04,449 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:20:04,450 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:20:04,451 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:20:10,080 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:20:10,547 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:20:14,548 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:20:15,755 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:20:18,549 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:20:19,449 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:20:19,450 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:20:19,451 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:20:20,462 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-14 20:20:20,463 DEBUG   SenderThread:11896 [sender.py:send():378] send: history
+2024-03-14 20:20:20,463 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: summary_record
+2024-03-14 20:20:20,464 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 20:20:20,549 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 20:20:21,539 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:20:22,550 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:20:26,540 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:20:31,540 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:20:34,357 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:20:34,450 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:20:34,450 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:20:34,451 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:20:36,729 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:20:41,730 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:20:46,730 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:20:49,450 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:20:49,450 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:20:49,490 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:20:51,850 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:20:52,557 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:20:56,851 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:21:01,851 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:21:04,358 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:21:04,450 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:21:04,450 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:21:04,451 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:21:07,524 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:21:08,561 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:21:12,562 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:21:13,242 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:21:16,563 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:21:18,340 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:21:18,741 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-14 20:21:18,742 DEBUG   SenderThread:11896 [sender.py:send():378] send: history
+2024-03-14 20:21:18,743 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: summary_record
+2024-03-14 20:21:18,743 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 20:21:19,450 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:21:19,450 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:21:19,451 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:21:19,564 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 20:21:20,565 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:21:23,684 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:21:28,684 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:21:33,685 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:21:34,358 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:21:34,450 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:21:34,450 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:21:34,490 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:21:38,737 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:21:43,738 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:21:48,738 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:21:49,450 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:21:49,450 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:21:49,452 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:21:51,573 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:21:54,695 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:21:59,696 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:22:04,358 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:22:04,450 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:22:04,451 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:22:04,494 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:22:05,667 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:22:07,577 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:22:10,677 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:22:11,578 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:22:15,579 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:22:16,305 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:22:17,293 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-14 20:22:17,293 DEBUG   SenderThread:11896 [sender.py:send():378] send: history
+2024-03-14 20:22:17,294 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: summary_record
+2024-03-14 20:22:17,294 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 20:22:17,579 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 20:22:19,450 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:22:19,450 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: stop_status
+2024-03-14 20:22:19,452 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:22:19,580 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:22:21,690 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:22:26,691 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:22:28,879 DEBUG   SenderThread:11896 [sender.py:send():378] send: telemetry
+2024-03-14 20:22:28,879 DEBUG   SenderThread:11896 [sender.py:send():378] send: exit
+2024-03-14 20:22:28,879 INFO    SenderThread:11896 [sender.py:send_exit():585] handling exit code: 0
+2024-03-14 20:22:28,879 INFO    SenderThread:11896 [sender.py:send_exit():587] handling runtime: 1794
+2024-03-14 20:22:28,880 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 20:22:28,880 INFO    SenderThread:11896 [sender.py:send_exit():593] send defer
+2024-03-14 20:22:28,880 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: defer
+2024-03-14 20:22:28,880 INFO    HandlerThread:11896 [handler.py:handle_request_defer():172] handle defer: 0
+2024-03-14 20:22:28,880 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: defer
+2024-03-14 20:22:28,880 INFO    SenderThread:11896 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-03-14 20:22:28,880 INFO    SenderThread:11896 [sender.py:transition_state():613] send defer: 1
+2024-03-14 20:22:28,880 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: defer
+2024-03-14 20:22:28,880 INFO    HandlerThread:11896 [handler.py:handle_request_defer():172] handle defer: 1
+2024-03-14 20:22:28,880 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: defer
+2024-03-14 20:22:28,880 INFO    SenderThread:11896 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-03-14 20:22:28,880 INFO    SenderThread:11896 [sender.py:transition_state():613] send defer: 2
+2024-03-14 20:22:28,881 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: defer
+2024-03-14 20:22:28,881 INFO    HandlerThread:11896 [handler.py:handle_request_defer():172] handle defer: 2
+2024-03-14 20:22:28,881 INFO    HandlerThread:11896 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-14 20:22:28,881 INFO    HandlerThread:11896 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-14 20:22:28,881 DEBUG   SystemMonitor:11896 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-14 20:22:28,881 INFO    HandlerThread:11896 [interfaces.py:finish():202] Joined disk monitor
+2024-03-14 20:22:28,881 DEBUG   SystemMonitor:11896 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-14 20:22:28,934 INFO    HandlerThread:11896 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-14 20:22:28,934 INFO    HandlerThread:11896 [interfaces.py:finish():202] Joined memory monitor
+2024-03-14 20:22:28,934 INFO    HandlerThread:11896 [interfaces.py:finish():202] Joined network monitor
+2024-03-14 20:22:28,935 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: defer
+2024-03-14 20:22:28,935 INFO    SenderThread:11896 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-03-14 20:22:28,935 INFO    SenderThread:11896 [sender.py:transition_state():613] send defer: 3
+2024-03-14 20:22:28,935 DEBUG   SenderThread:11896 [sender.py:send():378] send: stats
+2024-03-14 20:22:28,936 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: defer
+2024-03-14 20:22:28,936 INFO    HandlerThread:11896 [handler.py:handle_request_defer():172] handle defer: 3
+2024-03-14 20:22:28,936 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: defer
+2024-03-14 20:22:28,936 INFO    SenderThread:11896 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-03-14 20:22:28,936 INFO    SenderThread:11896 [sender.py:transition_state():613] send defer: 4
+2024-03-14 20:22:28,937 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: defer
+2024-03-14 20:22:28,937 INFO    HandlerThread:11896 [handler.py:handle_request_defer():172] handle defer: 4
+2024-03-14 20:22:28,937 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: defer
+2024-03-14 20:22:28,937 INFO    SenderThread:11896 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-03-14 20:22:28,937 INFO    SenderThread:11896 [sender.py:transition_state():613] send defer: 5
+2024-03-14 20:22:28,937 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: defer
+2024-03-14 20:22:28,938 INFO    HandlerThread:11896 [handler.py:handle_request_defer():172] handle defer: 5
+2024-03-14 20:22:28,938 DEBUG   SenderThread:11896 [sender.py:send():378] send: summary
+2024-03-14 20:22:28,939 INFO    SenderThread:11896 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-14 20:22:28,939 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: defer
+2024-03-14 20:22:28,939 INFO    SenderThread:11896 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-03-14 20:22:28,939 INFO    SenderThread:11896 [sender.py:transition_state():613] send defer: 6
+2024-03-14 20:22:28,939 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: defer
+2024-03-14 20:22:28,939 INFO    HandlerThread:11896 [handler.py:handle_request_defer():172] handle defer: 6
+2024-03-14 20:22:28,940 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: defer
+2024-03-14 20:22:28,940 INFO    SenderThread:11896 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-03-14 20:22:28,945 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:22:29,128 INFO    SenderThread:11896 [sender.py:transition_state():613] send defer: 7
+2024-03-14 20:22:29,128 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: defer
+2024-03-14 20:22:29,128 INFO    HandlerThread:11896 [handler.py:handle_request_defer():172] handle defer: 7
+2024-03-14 20:22:29,128 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: defer
+2024-03-14 20:22:29,128 INFO    SenderThread:11896 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-03-14 20:22:29,583 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/config.yaml
+2024-03-14 20:22:29,584 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 20:22:29,836 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-14 20:22:31,585 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:22:32,102 INFO    SenderThread:11896 [sender.py:transition_state():613] send defer: 8
+2024-03-14 20:22:32,103 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: poll_exit
+2024-03-14 20:22:32,103 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: defer
+2024-03-14 20:22:32,103 INFO    HandlerThread:11896 [handler.py:handle_request_defer():172] handle defer: 8
+2024-03-14 20:22:32,104 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: defer
+2024-03-14 20:22:32,104 INFO    SenderThread:11896 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-03-14 20:22:32,104 INFO    SenderThread:11896 [job_builder.py:build():298] Attempting to build job artifact
+2024-03-14 20:22:32,105 INFO    SenderThread:11896 [job_builder.py:_get_source_type():439] no source found
+2024-03-14 20:22:32,105 INFO    SenderThread:11896 [sender.py:transition_state():613] send defer: 9
+2024-03-14 20:22:32,105 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: defer
+2024-03-14 20:22:32,105 INFO    HandlerThread:11896 [handler.py:handle_request_defer():172] handle defer: 9
+2024-03-14 20:22:32,105 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: defer
+2024-03-14 20:22:32,105 INFO    SenderThread:11896 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-03-14 20:22:32,106 INFO    SenderThread:11896 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-14 20:22:32,586 INFO    Thread-12 :11896 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:22:32,587 INFO    SenderThread:11896 [dir_watcher.py:finish():388] scan: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files
+2024-03-14 20:22:32,587 INFO    SenderThread:11896 [dir_watcher.py:finish():402] scan save: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/requirements.txt requirements.txt
+2024-03-14 20:22:32,588 INFO    SenderThread:11896 [dir_watcher.py:finish():402] scan save: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-metadata.json wandb-metadata.json
+2024-03-14 20:22:32,588 INFO    SenderThread:11896 [dir_watcher.py:finish():402] scan save: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log output.log
+2024-03-14 20:22:32,588 INFO    SenderThread:11896 [dir_watcher.py:finish():402] scan save: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/config.yaml config.yaml
+2024-03-14 20:22:32,596 INFO    SenderThread:11896 [dir_watcher.py:finish():402] scan save: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json wandb-summary.json
+2024-03-14 20:22:32,597 INFO    SenderThread:11896 [sender.py:transition_state():613] send defer: 10
+2024-03-14 20:22:32,597 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: defer
+2024-03-14 20:22:32,597 INFO    HandlerThread:11896 [handler.py:handle_request_defer():172] handle defer: 10
+2024-03-14 20:22:32,604 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: defer
+2024-03-14 20:22:32,605 INFO    SenderThread:11896 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-03-14 20:22:32,605 INFO    SenderThread:11896 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-14 20:22:32,838 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-14 20:22:32,839 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: poll_exit
+2024-03-14 20:22:33,116 INFO    wandb-upload_0:11896 [upload_job.py:push():131] Uploaded file /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/requirements.txt
+2024-03-14 20:22:33,230 INFO    wandb-upload_2:11896 [upload_job.py:push():131] Uploaded file /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/config.yaml
+2024-03-14 20:22:33,232 INFO    wandb-upload_3:11896 [upload_job.py:push():131] Uploaded file /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/wandb-summary.json
+2024-03-14 20:22:33,345 INFO    wandb-upload_1:11896 [upload_job.py:push():131] Uploaded file /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/files/output.log
+2024-03-14 20:22:33,546 INFO    Thread-11 (_thread_body):11896 [sender.py:transition_state():613] send defer: 11
+2024-03-14 20:22:33,547 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: defer
+2024-03-14 20:22:33,547 INFO    HandlerThread:11896 [handler.py:handle_request_defer():172] handle defer: 11
+2024-03-14 20:22:33,548 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: defer
+2024-03-14 20:22:33,548 INFO    SenderThread:11896 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-03-14 20:22:33,548 INFO    SenderThread:11896 [file_pusher.py:join():178] waiting for file pusher
+2024-03-14 20:22:33,549 INFO    SenderThread:11896 [sender.py:transition_state():613] send defer: 12
+2024-03-14 20:22:33,549 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: defer
+2024-03-14 20:22:33,549 INFO    HandlerThread:11896 [handler.py:handle_request_defer():172] handle defer: 12
+2024-03-14 20:22:33,549 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: defer
+2024-03-14 20:22:33,549 INFO    SenderThread:11896 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-03-14 20:22:33,550 INFO    SenderThread:11896 [file_stream.py:finish():595] file stream finish called
+2024-03-14 20:22:33,839 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-14 20:22:34,184 INFO    SenderThread:11896 [file_stream.py:finish():599] file stream finish is done
+2024-03-14 20:22:34,185 INFO    SenderThread:11896 [sender.py:transition_state():613] send defer: 13
+2024-03-14 20:22:34,185 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: poll_exit
+2024-03-14 20:22:34,185 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: defer
+2024-03-14 20:22:34,186 INFO    HandlerThread:11896 [handler.py:handle_request_defer():172] handle defer: 13
+2024-03-14 20:22:34,186 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: defer
+2024-03-14 20:22:34,186 INFO    SenderThread:11896 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-03-14 20:22:34,186 INFO    SenderThread:11896 [sender.py:transition_state():613] send defer: 14
+2024-03-14 20:22:34,187 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: defer
+2024-03-14 20:22:34,187 INFO    HandlerThread:11896 [handler.py:handle_request_defer():172] handle defer: 14
+2024-03-14 20:22:34,187 DEBUG   SenderThread:11896 [sender.py:send():378] send: final
+2024-03-14 20:22:34,187 DEBUG   SenderThread:11896 [sender.py:send():378] send: footer
+2024-03-14 20:22:34,188 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: defer
+2024-03-14 20:22:34,188 INFO    SenderThread:11896 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-03-14 20:22:34,189 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-14 20:22:34,189 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: poll_exit
+2024-03-14 20:22:34,190 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:22:34,191 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: server_info
+2024-03-14 20:22:34,192 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: server_info
+2024-03-14 20:22:34,234 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: get_summary
+2024-03-14 20:22:34,235 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: sampled_history
+2024-03-14 20:22:34,236 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: job_info
+2024-03-14 20:22:34,407 DEBUG   SenderThread:11896 [sender.py:send_request():405] send_request: job_info
+2024-03-14 20:22:34,408 DEBUG   HandlerThread:11896 [handler.py:handle_request():146] handle_request: shutdown
+2024-03-14 20:22:34,408 INFO    HandlerThread:11896 [handler.py:finish():869] shutting down handler
+2024-03-14 20:22:35,237 INFO    WriterThread:11896 [datastore.py:close():296] close: /home/danielcarias/Documents/Estudo NN/Estudo/CNN/first_project/wandb/run-20240314_195233-8ck35g2g/run-8ck35g2g.wandb
+2024-03-14 20:22:35,408 INFO    SenderThread:11896 [sender.py:finish():1521] shutting down sender
+2024-03-14 20:22:35,408 INFO    SenderThread:11896 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-14 20:22:35,408 INFO    SenderThread:11896 [file_pusher.py:join():178] waiting for file pusher

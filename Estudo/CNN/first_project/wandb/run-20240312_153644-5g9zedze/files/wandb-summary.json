@@ -1,0 +1,1 @@
+{"train/epoch": 4, "train/train_loss": 0.7123291492462158, "train/train_accuracy": 75.52, "test/test_loss": 0.731471836566925, "test/test_accuracy": 74.7, "_timestamp": 1710258340.445992, "_runtime": 536.1898329257965, "_step": 5, "eval_loss": "ModelCNN", "eval_acc": 74.2, "_wandb": {"runtime": 535}}
