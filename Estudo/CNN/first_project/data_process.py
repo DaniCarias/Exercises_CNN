@@ -88,7 +88,7 @@ def create_data_loaders(train_dir, test_dir):
     train_dataloader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
     test_dataloader = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=True)
     
-    print(f"Dataset: {train_dir} and {test_dir}")
+    #print(f"Dataset: {train_dir} and {test_dir}")
     print(f"Train dataloader: {len(train_dataloader)} batches")
     print(f"Test dataloader: {len(test_dataloader)} batches")
     
