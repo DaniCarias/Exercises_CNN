@@ -1,4 +1,6 @@
 import torch
+import random
+import matplotlib.pyplot as plt
 
 def accuracy_fn(y_true, y_pred):
     correct = torch.eq(y_true, y_pred).sum().item()
@@ -30,3 +32,9 @@ def eval_model(model: torch.nn.Module,
         acc /= len(data_loader)
 
     return {model.__class__.__name__, loss.item(), acc}
+
+
+def plot_img(tensor:torch.Tensor):
+    for i in range(10):
+        plt.imshow(tensor[random.randint(0, len(tensor)-1)][0].permute(1, 2, 0))
+        plt.show()

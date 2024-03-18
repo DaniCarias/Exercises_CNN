@@ -1,6 +1,7 @@
 from torch.utils.data import DataLoader
 from torchvision import datasets, transforms
 import torch
+import utils
 
 BATCH_SIZE = 16
 
@@ -12,7 +13,7 @@ basic_transform = transforms.Compose([
 transform = transforms.Compose([
     transforms.Resize((224, 224)),
     transforms.RandomHorizontalFlip(0.5),
-    transforms.TrivialAugmentWide(num_magnitude_bins= 10),
+    transforms.TrivialAugmentWide(num_magnitude_bins= 15),
     transforms.ToTensor()    
 ])
 
@@ -52,8 +53,18 @@ def CIFAR100():
 
 def cat_dog():
     
+    train_dataset = datasets.ImageFolder('./data/cat_dog/train', transform=transform)
+    test_dataset = datasets.ImageFolder('./data/cat_dog/test', transform=transform)
+    
+    print(f"Train dataset: {train_dataset} \nTest dataset: {test_dataset} \nTotal data: {len(train_dataset)+len(test_dataset)}")
+    #utils.plot_img(train_dataset)
+    
+    train_dataloader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
+    test_dataloader = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=True)
 
-
+    print(f"Labels: {train_dataset.class_to_idx}")
+    
+    return train_dataloader, test_dataloader
 
 
 
