@@ -1,7 +1,7 @@
 import torch
 from torch import nn
 from train import train_fn
-from test import test_fn
+from validation import val_fn
 import utils
 import wandb
 import datasets 
@@ -114,7 +114,7 @@ def main():
     optimizer = torch.optim.SGD(model.parameters(), lr=lr)
     
     print(f"Creating dataloaders...")
-    train_dataloader, test_dataloader = datasets.cat_dog()
+    train_dataloader, val_dataloader = datasets.cat_dog()
         
     for epoch in range(epochs):
         print(f"\n---- Epoch: {epoch}/{epochs}")
@@ -123,18 +123,18 @@ def main():
         print(f"Start Training...")
         train_loss, train_acc = train_fn(model, train_dataloader, loss_fn, optimizer, utils.accuracy_fn, device)
         
-        print(f"Start Testing...")
-        test_loss, test_acc = test_fn(model, test_dataloader, loss_fn, utils.accuracy_fn, device)
+        print(f"Start Validation...")
+        val_loss, val_acc = val_fn(model, val_dataloader, loss_fn, utils.accuracy_fn, device)
            
     
         metrics = { "epoch": epoch,
                     "train/loss": train_loss, 
                     "train/accuracy": train_acc,
-                    "test/loss": test_loss, 
-                    "test/accuracy": test_acc}
+                    "val/loss": val_loss, 
+                    "val/accuracy": val_acc}
         wandb.log(metrics)
     
-    model, loss, accuracy  = utils.eval_model(model, test_dataloader, loss_fn, utils.accuracy_fn, device)
+    model, loss, accuracy  = utils.eval_model(model, val_dataloader, loss_fn, utils.accuracy_fn, device)
     print(f"------ Final Results ------")
     print(f"Model: {model} | Loss: {loss} | Accuracy: {accuracy}")
     
