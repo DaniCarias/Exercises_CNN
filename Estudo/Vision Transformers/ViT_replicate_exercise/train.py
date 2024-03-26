@@ -1,6 +1,6 @@
 import torch
 from torch import nn
-from vit import ViT
+from vit import PatchEmbedding, VisionTransformer 
 from data_setup import create_dog_cat_small_dataloaders
 from torchinfo import summary
 from engine import train_step, validation_step
@@ -9,9 +9,9 @@ import wandb
 
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
-EPOCHS = 6
+EPOCHS = 20
 
-lr=1e-3
+lr=0.001
 
 
 wandb.init(project="ViT",
@@ -21,53 +21,31 @@ wandb.init(project="ViT",
             "epochs": EPOCHS,
             "loss_fn": "CrossEntropyLoss",
             "optimizer": "Adam",
-            "note": "Pre-training"
+            "note": "No Pre-training"
             })
 
 
 train_dataloader, validation_dataloasder = create_dog_cat_small_dataloaders()
 
 
+rand_tensor = torch.rand((1, 3, 224, 224)).to(device)
 
-
-
-
-weights = torchvision.models.ViT_B_16_Weights.DEFAULT
-model_pretreined = torchvision.models.vit_b_16(weights=weights).to(device)
-
-for params in model_pretreined.parameters():
-    params.requires_grad = False
-    
-model_pretreined.heads = nn.Sequential(
-    nn.LayerNorm(normalized_shape=768),
-    nn.Linear(in_features=768, out_features=3)
-).to(device)
-
-#summary(vit_pretrained, input_size=(1, 3, 224, 224))
-
-
-
-
-
-""" model = ViT(img_size=224, in_channels=3, patch_size=16, embedding_dim=768, mlp_size=3072,
-            heads=12, num_encoder_layers=12, device=device, dropout=0.1, num_classes=3).to(device)
- """
-#summary(model, input_size=(1, 3, 224, 224)) # To check if the model architecture and the parameters are correct
+model = VisionTransformer(n_layers=12, d_model=768, heads=12, patch_size=16, in_channels=3, n_classes=2, device=device).to(device)   
+#summary(model, input_size=(1, 3, 224, 224))
+x = model(rand_tensor)
 
 loss_fn = torch.nn.CrossEntropyLoss()
-optimizer = torch.optim.Adam(model_pretreined.parameters(), lr=lr)
-
-
+optimizer = torch.optim.Adam(model.parameters(), lr=lr)
 
 
 for epoch in range(EPOCHS):
     print(f"---------- Epoch {epoch+1}/{EPOCHS}")
     
     print("\nTraining...")
-    train_loss, train_acc = train_step(model_pretreined, train_dataloader, loss_fn, optimizer, device)
+    train_loss, train_acc = train_step(model, train_dataloader, loss_fn, optimizer, device)
     
     print("\nValidation...")
-    val_loss, val_acc = validation_step(model_pretreined, validation_dataloasder, loss_fn, device)
+    val_loss, val_acc = validation_step(model, validation_dataloasder, loss_fn, device)
     
     print(f"Epoch {epoch}/{EPOCHS}, Train Loss: {train_loss:.4f}, Train Acc: {train_acc:.4f}, Val Loss: {val_loss:.4f}, Val Acc: {val_acc:.4f}")
     print("\n\n")
