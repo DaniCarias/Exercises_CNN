@@ -2,7 +2,8 @@
 from torchvision import transforms, datasets
 from torch.utils.data import DataLoader
 
-IMG_SIZE = 224
+
+IMG_SIZE = 64
 
 # Manual data setup
 manual_transform = transforms.Compose([
@@ -11,7 +12,7 @@ manual_transform = transforms.Compose([
 ])
 
 
-BATCH_SIZE = 16
+BATCH_SIZE = 1
 
 
 def create_pizza_steak_sushi_dataloaders():
@@ -53,21 +54,6 @@ def create_dog_cat_small_dataloaders():
     return train_dataloader, validation_dataloader
 
 
-def create_dog_cat_full_dataloaders():
-    
-    TRAIN_PATH = "../../data/cats_dogs_full/train"
-    TEST_PATH = "../../data/cats_dogs_full/test"
-    
-    train_dataset = datasets.ImageFolder(root=TRAIN_PATH, transform=manual_transform)
-    validation_dataset = datasets.ImageFolder(root=TEST_PATH, transform=manual_transform)
-    
-    train_dataloader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
-    validation_dataloader = DataLoader(validation_dataset, batch_size=BATCH_SIZE, shuffle=True)
+
     
     
-    print("Data loaded successfully")
-    img_batch, label_batch = next(iter(train_dataloader))
-    #print(f"Shape of training data: {img_batch.shape}, {label_batch}\n")
-    
-    print(f"{len(train_dataset)} training images and {len(validation_dataset)} validation images found.")
-    return train_dataloader, validation_dataloader

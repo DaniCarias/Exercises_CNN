@@ -1,36 +1,31 @@
-import torch
-from vit import VisionTransformer 
-from data_setup import create_dog_cat_full_dataloaders
-from torchinfo import summary
+from data_setup import create_dataloaders_cifa10, create_dog_cat_small_dataloaders
+from resnet50 import ResNetModel
 from engine import train_step, validation_step
+from torchinfo import summary
+import torch
 import wandb
 
-
 device = "cuda" if torch.cuda.is_available() else "cpu"
-EPOCHS = 100
+print(f"Using {device} device")
+EPOCHS = 15
 
 lr=0.001
 
-
-wandb.init(project="ViT",
+wandb.init(project="ResNet",
             config={
             "learning_rate": lr,
-            "dataset": "CAT_DOG_full",
+            "dataset": "CAT_DOG_small",
             "epochs": EPOCHS,
             "loss_fn": "CrossEntropyLoss",
             "optimizer": "Adam",
-            "note": "No Pre-training"
+            "note": "ResNet50"
             })
 
+train_dataloader, validation_dataloader = create_dog_cat_small_dataloaders()
 
-train_dataloader, validation_dataloasder = create_dog_cat_full_dataloaders()
 
-
-rand_tensor = torch.rand((1, 3, 224, 224)).to(device)
-
-model = VisionTransformer(n_layers=12, d_model=768, heads=12, patch_size=16, in_channels=3, n_classes=2, device=device).to(device)   
-#summary(model, input_size=(1, 3, 224, 224))
-x = model(rand_tensor)
+model = ResNetModel(n_layers=[3, 4, 6, 3], img_channels=3, num_classes=10).to(device)
+#summary(model, input_size=(4, 3, 224, 224))
 
 loss_fn = torch.nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=lr)
@@ -43,10 +38,11 @@ for epoch in range(EPOCHS):
     train_loss, train_acc = train_step(model, train_dataloader, loss_fn, optimizer, device)
     
     print("\nValidation...")
-    val_loss, val_acc = validation_step(model, validation_dataloasder, loss_fn, device)
+    val_loss, val_acc = validation_step(model, validation_dataloader, loss_fn, device)
     
     print(f"Epoch {epoch}/{EPOCHS}, Train Loss: {train_loss:.4f}, Train Acc: {train_acc:.4f}, Val Loss: {val_loss:.4f}, Val Acc: {val_acc:.4f}")
     print("\n\n")
+
     
     metrics = { "epoch": epoch,
                     "train/loss": train_loss, 

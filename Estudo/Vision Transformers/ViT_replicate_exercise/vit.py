@@ -99,7 +99,6 @@ class VisionTransformer(nn.Module):
         
         x = self.dropout(x)
         
-    # TRANSFORMER ENCODER
         x = self.transformer_encoder(x)
 
         x = self.norm(x)
