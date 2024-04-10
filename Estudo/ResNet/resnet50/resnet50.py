@@ -1,6 +1,6 @@
 from torch import nn
 from typing import List
-
+import torch
 
 
 class Block(nn.Module):
@@ -99,7 +99,7 @@ class ResNetModel(nn.Module):
         #print(f"After Layer4 {x.shape}")
         
         x = self.avgpool(x)
-        x = x.reshape(x.shape[0], -1) # Flatten
+        x = torch.flatten(x, 1)
         x = self.linear(x)
         #print(f"Classification: {x.shape}")
         return x
@@ -109,15 +109,16 @@ class ResNetModel(nn.Module):
         layers = []
         
         shortcut = nn.Sequential(
-            nn.Conv2d(in_channels=self.in_channels, out_channels=intermediate_channels * self.expansion,
-                        kernel_size=1, stride=stride),
+            nn.Conv2d(in_channels=self.in_channels, 
+                      out_channels=intermediate_channels * self.expansion,
+                      kernel_size=1, stride=stride),
             nn.BatchNorm2d(intermediate_channels * self.expansion)
         )
         
         layers.append(block(in_channels=self.in_channels, 
-                                     out_channels=intermediate_channels,
-                                     identity_downsample=shortcut,
-                                     stride=stride))
+                            out_channels=intermediate_channels,
+                            identity_downsample=shortcut,
+                            stride=stride))
         
         self.in_channels = intermediate_channels * self.expansion
         

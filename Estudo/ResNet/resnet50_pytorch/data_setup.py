@@ -1,18 +1,16 @@
 # A file to prepare and download data if needed.
 from torchvision import transforms, datasets
 from torch.utils.data import DataLoader
+import torchvision
+
+BATCH_SIZE = 16
 
 
-IMG_SIZE = 64
-
-# Manual data setup
-manual_transform = transforms.Compose([
-    transforms.Resize((IMG_SIZE, IMG_SIZE)),
+transform = torchvision.transforms.Compose([
     transforms.ToTensor(),
+    transforms.Resize((224, 224)),
+    #transforms.Normalize(mean=(0.5, 0.5, 0.5), std=(0.5, 0.5, 0.5))
 ])
-
-
-BATCH_SIZE = 1
 
 
 def create_pizza_steak_sushi_dataloaders():
@@ -20,8 +18,8 @@ def create_pizza_steak_sushi_dataloaders():
     TRAIN_PATH = "../../data/pizza_steak_sushi/train"
     TEST_PATH = "../../data/pizza_steak_sushi/test"
     
-    train_dataset = datasets.ImageFolder(root=TRAIN_PATH, transform=manual_transform)
-    validation_dataset = datasets.ImageFolder(root=TEST_PATH, transform=manual_transform)
+    train_dataset = datasets.ImageFolder(root=TRAIN_PATH, transform=transform)
+    validation_dataset = datasets.ImageFolder(root=TEST_PATH, transform=transform)
     
     train_dataloader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
     validation_dataloader = DataLoader(validation_dataset, batch_size=BATCH_SIZE, shuffle=True)
@@ -39,8 +37,8 @@ def create_dog_cat_small_dataloaders():
     TRAIN_PATH = "../../data/cats_and_dogs_small/train"
     TEST_PATH = "../../data/cats_and_dogs_small/test"
     
-    train_dataset = datasets.ImageFolder(root=TRAIN_PATH, transform=manual_transform)
-    validation_dataset = datasets.ImageFolder(root=TEST_PATH, transform=manual_transform)
+    train_dataset = datasets.ImageFolder(root=TRAIN_PATH, transform=transform)
+    validation_dataset = datasets.ImageFolder(root=TEST_PATH, transform=transform)
     
     train_dataloader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
     validation_dataloader = DataLoader(validation_dataset, batch_size=BATCH_SIZE, shuffle=True)
