@@ -52,13 +52,13 @@ for epoch in range(EPOCHS):
     wandb.log(metrics)
 
 
-sweep_configuration = {
+""" sweep_configuration = {
     "method": "random",
     "metric": {"goal": "minimize", "name": "score"},
     "parameters": {
         "x": {"max": 0.1, "min": 0.01},
         "y": {"values": [1, 3, 7]},
     },
-}
+} """
 
 wandb.finish()
